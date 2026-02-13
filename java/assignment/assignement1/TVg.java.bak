@@ -1,4 +1,4 @@
-class  TVg
+class  TV
 {
 	static double tv_cost=20000.00;
 	static String tv_brand="Sony";
