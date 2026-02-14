@@ -1,0 +1,13 @@
+class Triangle{
+	public static void area(){
+		final double val=0.5;
+		int b=20;
+		int h=10;
+		double res = val *h*b;
+		System.out.println(" The area of the triagle is " +res);
+	}
+	public static void main(String[] args) 
+	{
+		area();
+	}
+}

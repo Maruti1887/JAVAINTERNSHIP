@@ -1,0 +1,15 @@
+*{
+    background-color: aquamarine;
+}
+#rod{
+    color:blue;
+}
+.new{
+    color:hotpink;
+}
+footer{
+    color: red;
+}
+header,aside{
+    color: gold;
+}

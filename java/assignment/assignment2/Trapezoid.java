@@ -1,0 +1,16 @@
+class  Trapezoid{
+	public static void area(){
+		final double val=0.5;
+		int a=10;
+		int b=10;
+		int h=7;
+		
+		double res = val*(a*b)*h;
+		System.out.println("The area of the trapezoid is " +res);
+	}
+	public static void main(String[] args) 
+	{
+		area();
+	}
+
+}

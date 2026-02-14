@@ -1,0 +1,13 @@
+class Rectangle 
+{
+	public static void Area(){
+		int b=10;
+		int h=30;
+		int res= b*h;
+		System.out.println(" the area of the rectangle is"+res);
+	}
+	public static void main(String[] args) 
+	{
+		Area();
+	}
+}
