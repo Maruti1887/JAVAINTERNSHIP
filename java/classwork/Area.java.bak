@@ -14,7 +14,11 @@ class Area
 		double res=b*h;
 		System.out.println(" The Area of Rectangle is " + res);
 	}
-	public static void 
+	public static void parllelogram( double b,double h){
+		
+		System.out.pri
+	}
+	
 	public static void main(String[] args) 
 	{
 		tri(30,20);

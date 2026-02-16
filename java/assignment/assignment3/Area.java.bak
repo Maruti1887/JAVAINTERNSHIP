@@ -1,8 +1,8 @@
 class Area
 {
 	public static void tri(double b, double h){
-		final double pi=3.142;
-		double res= pi*b*h;
+		final double val=0.5;
+		double res= val*b*h;
 		System.out.println(" the area of triangle is " + res);
 	}
 	public static void squre(double a){
@@ -20,7 +20,7 @@ class Area
 	}
 	public static void trapezoid(double a,double h,double b){
 		final double val=0.5;
-		double res=val*a*h*b;
+		double res=val*(a+b)*h;
 		System.out.println(" the area of the trapezoid is " + res);
 	}
 	public static void Circle(double r){
@@ -30,12 +30,13 @@ class Area
 	}
 	public static void Sector(double r){
 		int theta=180;
-		final double val=0,5;
+		final double val=0.5;
 		double res= val*theta*r*r;
 		System.out.println(" The area of the Sector is " + res);
 	}
 	public static void eclipse(double a,double b){
 		final double pi = 3.142;
+		double res=pi*a*b;
 		System.out.println(" The area of the ecllipse is" + res);
 	}
 	public static void main(String[] args) 
