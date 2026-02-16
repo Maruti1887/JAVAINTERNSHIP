@@ -1,0 +1,38 @@
+
+*{
+    background-color: beige;
+}
+hr{
+    height:10px;
+    background-color: blue;
+}
+h1{
+    text-align: center;
+}
+/* descendent selectors */
+/* div h1{
+    background-color: aqua;
+    color: blue;
+} */
+
+/* CHILD SELECTORS */
+
+div> h1{
+    background-color: aqua;
+
+}
+
+/* ADJACENT SIBLING SELECTORS{} */
+
+
+/* GENERAL SIBLING SELECTORS */
+div~h6{
+    color: chartreuse;
+    background-color: blueviolet;
+}
+div+h6{
+    color: brown;
+}
+ol> li{
+    color: crimson;
+}
