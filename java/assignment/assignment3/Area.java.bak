@@ -31,7 +31,8 @@ class Area
 	public static void Sector(double r){
 		int theta=180;
 		final double val=0.5;
-		double res= val*theta*r*r;
+		final double pi=3.142;
+		double res= (theta/360.0)*pi*r*r;
 		System.out.println(" The area of the Sector is " + res);
 	}
 	public static void eclipse(double a,double b){
