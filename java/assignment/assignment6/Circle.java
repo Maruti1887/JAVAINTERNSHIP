@@ -1,0 +1,13 @@
+class Circle 
+{
+	void area(){
+		double pi=3.142;
+		int r=7;
+		double res=pi*r*r;
+		System.out.println(" the area of the circle is" +res);
+	}
+	public static void main(String[] args) 
+	{
+		new Circle().area();
+	}
+}

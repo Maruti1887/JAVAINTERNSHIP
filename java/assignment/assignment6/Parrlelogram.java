@@ -1,0 +1,14 @@
+class Parrlelogram 
+{
+	public static void main(String[] args) 
+	{
+		new Parrlelogram().Area();
+	}
+	
+	public void Area(){
+		int b=10;
+		int h=30;
+		int area=b*h;
+		System.out.println(" the area of the Parrlelogram is"+area);
+	}
+}
