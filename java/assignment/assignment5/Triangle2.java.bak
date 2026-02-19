@@ -1,0 +1,16 @@
+class Triangle2
+{
+	public static void main(String[] args) 
+	{
+		Shape.area(10,20);
+	}
+}
+class Shape
+{
+	public static void area(int a,int b){
+		double val=0.5;
+		
+		double res=val*b*h;
+		System.out.println(" the area of the Triangle is "+res);
+	}
+}

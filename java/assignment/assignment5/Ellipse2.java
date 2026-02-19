@@ -1,0 +1,18 @@
+class Ellipse2
+{
+	public static void main(String[] args) 
+	{
+		Shape.area(10,20);
+		
+	}
+}
+class Shape
+{
+	public static void area (int a,int b){
+		double pi = 0.5;
+		double res=pi*a*b;
+		System.out.println(" the area of the ellipse is "+res);
+		
+		
+	}
+}

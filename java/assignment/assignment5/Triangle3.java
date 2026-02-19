@@ -1,0 +1,18 @@
+class Triangle3
+{
+	public static void main(String[] args) 
+	{
+		double res=Shape.area();
+		System.out.println("  the result is "+res);
+	}
+}
+class Shape
+{
+	public static double area(){
+		double val=0.5;
+		int b=7;
+		int h=9;
+		double res=val*b*h;
+		return res;
+	}
+}

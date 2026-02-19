@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudoelement</title>
+    <style>
+        #parent1{
+            height:500px;
+            width:100%;
+            background-color: rgb(22, 22, 74);
+            background-image: url("/web/images/ecomerce.jpg");
+            
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100vw 600px;
+        }
+        hr{
+            border: 2px solid black;
+        }
+        #parent2{
+            background-color: sandybrown;
+            height: 300px;
+            width: 100vw;
+            background-image: url("/web/images/shirt1.jpg"),url("/web/images/shoe2.jpg"),url("/web/images/watch.jpg");
+            background-position: 150px 50px, 550px 50px,900px 50px;
+            background-repeat: no-repeat;
+            background-size: 200px 200px;
+            content: "hello";
+         
+    
+        }
+        #parent3{
+            height: 200px;
+            width: 100vw;
+            background-color: seagreen;
+            background-image: url("/web/images/ramayan.png");
+            background-repeat: no-repeat;
+            background-size: 100vw 200px;
+
+
+        }
+        #parent4{
+            height: 300px;
+            width: 100vw;
+            background-color: rgb(39, 43, 153);
+            background-image: url("/web/images/pant2.jpg"),url("/web/images/shoe4.jpg"),url("/web/images/watch.jpg"),url("/web/images/girldress3.jpg");
+            background-repeat: no-repeat;
+            background-size: 200px 200px;
+            background-position: 50px 50px, 350px 50px, 650px 50px, 950px 50px;
+
+
+        }
+        p::first-letter{
+            color: aqua;
+            font-size: 50px;
+        }
+        p::first-line{
+            color: red;
+        }
+        P::before{
+            content: "❤️";
+        }
+        p::after{
+            content:"Maruti Naik";
+            color: blueviolet;
+            font-size: 50px;
+            align-items: end;
+        }
+        p::selection{
+            color: cyan;
+            background-color: black;
+        }
+        p{ 
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+        }
+       
+    </style>
+
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">SHOPPING MANIA</h1>
+    <hr>
+    <div id="parent1">
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio doloremque ab excepturi repudiandae fuga iste nostrum, sapiente ipsa? Eum commodi exercitationem quam veniam officia odit sint alias delectus maxime voluptate.
+        Cumque tempore est autem deserunt et reprehenderit perferendis veniam quibusdam, quia ratione iusto nisi doloribus, sunt dolorem. Nostrum maxime aspernatur dolor? Minima, dolorem! Nihil dolorum delectus non quidem aut suscipit.
+        Vitae corporis asperiores deleniti debitis dignissimos consequatur, ex accusamus! Ea magnam exercitationem ad at quisquam error quia hic sint tempore eos nihil quaerat reprehenderit earum, dolor adipisci est quos ab.
+        Nemo accusantium officia neque corrupti quas! Fugit alias dolore ullam iste ipsam voluptates? Sit officiis laudantium obcaecati saepe nesciunt sed excepturi. Quos soluta nisi commodi aspernatur repellat debitis vitae beatae!
+        Fuga illum quidem esse accusamus dolore repudiandae ut reiciendis eaque officiis, aspernatur magni consequuntur dicta molestias impedit incidunt velit iusto expedita magnam, fugiat quod libero minima. Molestiae hic pariatur aut.
+        Voluptatibus blanditiis fugit labore, corrupti voluptates ipsa quas deleniti. Omnis reiciendis vel maiores nostrum nisi, laudantium dolore doloremque debitis! Dolores enim, voluptas facilis optio animi aspernatur dolorem provident magni reprehenderit?
+        Cum consequuntur soluta quisquam. Corporis voluptate veritatis porro rem accusantium pariatur et maxime eaque eum cupiditate! Corporis beatae incidunt nihil ipsam quae sint natus doloribus, sunt pariatur sapiente hic aperiam.
+        A maxime fugiat pariatur assumenda quasi ratione in odio distinctio soluta sed, repudiandae ad adipisci quas consequuntur delectus iure? Odit vitae iusto temporibus exercitationem eius praesentium libero repellendus aliquid aperiam.
+       m deserunt quod neque eum et distinctio rerum voluptatum, dolor obcaecati, nemo accusamus repellat unde nisi suscipit adipisci labore nam perspiciatis nostrum numquam! Cum odit sit placeat.
+        
+        </p>
+
+    </div>
+    <hr>
+    <h2>Products</h2>
+    <div id="parent2">
+        
+
+    </div>
+    <hr>
+    <div id="parent3">
+
+    </div>
+    <hr>
+    <div id="parent4">
+
+    </div>
+    <span></span>
+</body>
+</html>

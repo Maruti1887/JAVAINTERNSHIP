@@ -1,0 +1,18 @@
+class Circle2
+{
+	public static void main(String[] args) 
+	{
+		Shape.area(3);
+		
+	}
+}
+class Shape
+{
+	public static void area(int r){
+		double pi = 3.142;
+		double res=pi*r*r;
+		System.out.println(" the area of the Circl is "+res);
+		
+		
+	}
+}

@@ -1,0 +1,18 @@
+class Parrlelogram2
+{
+	public static void main(String[] args) 
+	{
+		Shape.area(10,20);
+		
+	}
+}
+class Shape
+{
+	public static void area(int a,int b){
+		
+		int res=a*b;
+		System.out.println(" the area of the Parreleogram is "+res);
+		
+		
+	}
+}

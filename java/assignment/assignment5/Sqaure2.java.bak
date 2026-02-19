@@ -1,0 +1,18 @@
+class Sqaure2
+{
+	public static void main(String[] args) 
+	{
+		Shape.area();
+		
+	}
+}
+class Shape
+{
+	public static int area(){
+		int a=10;
+		int res=a*a;
+		System.out.println(" the area of the Square is "+res);
+		
+		
+	}
+}
