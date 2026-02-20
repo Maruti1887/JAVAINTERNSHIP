@@ -34,7 +34,7 @@ class For1 {
 
     public static void printing(int start, int end) {
         for (int i = start; i <= end; i++) {
-            System.out.println(i);
+            System.out.print(i);
         }
     }
 

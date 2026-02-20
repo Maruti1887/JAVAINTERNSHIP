@@ -1,0 +1,11 @@
+class Divisible1 
+{
+	public static void main(String[] args) 
+	{
+		int n=10;
+		if(n%5==0){
+			System.out.println("The given number" + n +" is divisible 5");
+			
+	}
+}
+}
