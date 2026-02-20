@@ -1,0 +1,11 @@
+class Vowel
+{
+	public static void main(String[] args) 
+	{
+		char val='e';
+		if(val='a' || val ='e' || val ='i' || val='o' || val='u')
+			System.out.println(" The letter is vowel");
+		else
+			System.out.println(" The letter is not vowel");
+	}
+}
