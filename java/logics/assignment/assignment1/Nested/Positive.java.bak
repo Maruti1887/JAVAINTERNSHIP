@@ -1,0 +1,19 @@
+class Positive 
+{
+	public static void main(String[] args) 
+	{
+		int a=10;
+		if(a>0){
+			if(a%2==0)
+				System.out.println(" The Number is positive and even");
+			else
+				System.out.println(" The Number is Positive and odd");
+		}
+		else{
+			if(a%2==0)
+				System.out.println("The Number is negative and even");
+			else
+				System.out.println("The Number is neagtive and odd)
+		}
+	}
+}

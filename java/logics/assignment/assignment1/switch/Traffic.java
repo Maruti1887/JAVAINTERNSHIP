@@ -1,0 +1,20 @@
+class Month
+{
+	public static void main(String[] args) 
+	{
+		String signal="Red";
+		switch(signal){
+			case "Red":
+				System.out.println("You have to Stop");
+				break;
+			case "Yellow":
+				System.out.println("You can start the vehicle but not move");
+				break;
+			case "Green":
+				System.out.println("You can move the vehicle");
+				break;
+			default:System.out.println(" Invalid Output ");
+			
+	}
+}
+}

@@ -1,0 +1,12 @@
+class Temperature 
+{
+	public static void main(String[] args) 
+	{
+		String temp="Hot";
+		if(temp=="cold"){
+			System.out.println(" the temperaature is cold");
+		else
+			System.out.println("The Tempetatur is hot");
+			
+	}
+}

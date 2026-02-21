@@ -1,0 +1,11 @@
+class Pass
+{
+	public static void main(String[] args) 
+	{
+		int a=45;
+		if(a>35)
+			System.out.println("The Person is Pass");
+		else
+			System.out.println(" Person is Fail");
+	}
+}

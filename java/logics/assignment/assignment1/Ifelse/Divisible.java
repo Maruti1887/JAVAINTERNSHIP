@@ -1,11 +1,11 @@
-class Divisible
+class Marks
 {
 	public static void main(String[] args) 
 	{
-		int a=20;
-		if(a%2==0)
-			System.out.println(" a is divisible by 2");
+		int a=45;
+		if(a>45)
+			System.out.println("the student is pass");
 		else
-			System.out.println(" a is not divisible by 2");
+			System.out.println(" The student is not pass");
 	}
 }
