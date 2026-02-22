@@ -1,0 +1,59 @@
+class Temp
+{
+	static void temp1(){
+		int a=210;
+		int b=200;
+		int c=30;
+		System.out.println(" The value of a " +a+ " b is " +b +" c is"+c);
+		int temp;
+		temp=a;
+		a=b;
+		b=c;
+		c=temp;
+		System.out.println("after modification");
+		System.out.println(" The value of a " +a +" b is " +b+ " c is"+c);
+	}
+	static void temp2(){
+		int a=10;
+		int b=20;
+		int c=30;
+		System.out.println(" The value of a " +a+ " b is " +b +" c is"+c);
+		//a=a+b+c;
+		//b=b+c;
+		//b=a-b;
+		//c=a-b-c;
+		//a=a-b-c;
+		a=a+b+c;
+		b=a-b-c;
+		c=a-b-c;
+		a=a-b-c;
+		
+		System.out.println("after modification");
+		System.out.println(" The value of a " +a +" b is " +b+ " c is"+c);
+	}
+	static void temp3(){
+		int a=10;
+		int b=20;
+		int c=30;
+		System.out.println(" The value of a " +a+ " b is " +b +" c is"+c);
+		//a=a+b+c;
+		//b=b+c;
+		//b=a-b;
+		//c=a-b-c;
+		//a=a-b-c;
+		a=a*b*c;
+		b=a/b/c;
+		c=a/b/c;
+		a=a/b/c;
+		
+		System.out.println("after modification");
+		System.out.println(" The value of a " +a +" b is " +b+ " c is"+c);
+	}
+	public static void main(String[] args) 
+	{
+		 temp1();
+		 temp2();
+		 temp3();
+		 
+	}
+}
