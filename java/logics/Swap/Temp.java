@@ -12,6 +12,7 @@ class Temp
 		c=temp;
 		System.out.println("after modification");
 		System.out.println(" The value of a " +a +" b is " +b+ " c is"+c);
+		System.out.println(" -----------------------------------------");
 	}
 	static void temp2(){
 		int a=10;
@@ -30,6 +31,7 @@ class Temp
 		
 		System.out.println("after modification");
 		System.out.println(" The value of a " +a +" b is " +b+ " c is"+c);
+		System.out.println(" -----------------------------------------");
 	}
 	static void temp3(){
 		int a=10;
@@ -48,12 +50,33 @@ class Temp
 		
 		System.out.println("after modification");
 		System.out.println(" The value of a " +a +" b is " +b+ " c is"+c);
+		System.out.println(" -----------------------------------------");
+	}
+	static void temp4(){
+		int a=10;
+		int b=20;
+		int c=30;
+		System.out.println(" The value of a " +a+ " b is " +b +" c is"+c);
+		//a=a+b+c;
+		//b=b+c;
+		//b=a-b;
+		//c=a-b-c;
+		//a=a-b-c;
+		a=a^b^c;
+		b=a^b^c;
+		c=a^b^c;
+		a=a^b^c;
+		
+		System.out.println("after modification");
+		System.out.println(" The value of a " +a +" b is " +b+ " c is"+c);
+		System.out.println(" -----------------------------------------");
 	}
 	public static void main(String[] args) 
 	{
 		 temp1();
 		 temp2();
 		 temp3();
+		 temp4();
 		 
 	}
 }

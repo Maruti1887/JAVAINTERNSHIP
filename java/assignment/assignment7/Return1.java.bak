@@ -1,4 +1,4 @@
-class Return
+class Return1
 {
 	double triangle(){
 		int b=20;

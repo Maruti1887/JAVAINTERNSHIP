@@ -65,7 +65,7 @@ class Return1
 		System.out.println("The program is based on the ref variable");
 		System.out.println(" Simple programs with using the return type ");
 		System.out.println(" --------------------------------------------");
-		Return C1= new Return();
+		Return1 C1= new Return1();
 		double res1=C1.circle();
 		System.out.println("The area of the circle is "+res1);
 		double res2=C1.triangle();
