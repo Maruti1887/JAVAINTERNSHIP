@@ -5,7 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NAVBAR</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="nav.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    height: 50px;
+    background-color: rgb(253, 253, 253);
+    justify-content: space-around;
+    align-items: center;
+}
+nav>#div4{
+   height: 25px;
+   width: 250px;
+}
+nav>#div4>input{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+nav>div>#div4>#input1{
+   width: 350px;      
+    height: 40px;      
+    font-size: 18px;   
+    padding: 8px; 
+}
+nav>div>#div5{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    text-align: none;
+}
+
+#img6{
+    width: 100vw;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    width: 100px;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav>#div5{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+nav>#div5>div>a{
+    text-decoration: none;
+}
+nav>#div5>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#div6{
+    width: 100vw;
+    height: 400px;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+}
+#div6>img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    </style>
 </head>
 <body>
     <nav >
@@ -13,15 +93,17 @@
     <div id="div2">ALL
         SPORTS
     </div>
-    <div id="div3"><h2>DECATHLON</h2></div>
+    <div id="div3"><img src="https://vectorseek.com/wp-content/uploads/2024/04/Decathlon-New-Logo-Vector.svg-.png" alt=""></div>
+    <div id="div9"> <p>Delivery Location</p>
+                    <p><a href="">560300</a>  <a href="">Location</a></p></div>
     
     <div id="div4"><input type ="text" placeholder="Search for 60+ Sports and 6000+ products"></div>
     <div id="div5">
-        <a href="">SIGNIN</a>
-        <a href="">MYSTORE</a>
-        <a href="">SUPPORT</a>
-        <a href="">WISHLIST</a>
-        <a href="">CART</a>
+        <div><i class="fa-regular fa-user"></i><a href="">SIGNIN</a></div>
+        <div><i class="fa-solid fa-store"></i><a href="">MYSTORE</a></div>
+        <div><i class="fa-regular fa-comment-dots"></i><a href="">SUPPORT</a></div>
+        <div><i class="fa-regular fa-heart"></i><a href="">WISHLIST</a></div>
+        <div><i class="fa-solid fa-cart-shopping"></i><a href="">CART</a></div>
     </div>
 </nav>
 <div id="img6">

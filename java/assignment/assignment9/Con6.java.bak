@@ -1,0 +1,22 @@
+class Con6 
+{	
+	
+	String course_name;
+	String unvir_name;
+	int exam_cost;
+	Con6(int a,String b,String c){
+		
+		course_name=a;
+		unvir_name=b;
+		exam_cost=c;
+	}
+	
+	public static void main(String[] args) 
+	{
+		Con6 c=new Con6("CS","VTU",10000);
+		System.out.println(c.course_name);
+		System.out.println(c.unvir_name);
+		System.out.println(c.exam_cost);
+		
+	}
+}

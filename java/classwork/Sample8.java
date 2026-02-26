@@ -1,0 +1,21 @@
+class Sample8
+{	
+	
+	/*Sample8(){
+		String name="avc";
+		int id=98;
+		double sal=1.2;
+		System.out.println(name);
+	}*/
+	Sample8(String name){
+		String b=name;
+		//int id=98;
+		//double sal=1.2;
+		System.out.println(b);
+	}
+	public static void main(String[] args) 
+	{
+		Sample8 S1=new Sample8("abc");
+		//System.out.println(S1.name);
+	}
+}

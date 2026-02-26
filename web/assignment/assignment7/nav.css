@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav{
     display: flex;
     height: 50px;
@@ -22,10 +27,11 @@ nav>div>#div4>#input1{
     padding: 8px; 
 }
 nav>div>#div5{
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    
     text-align: none;
 }
 
@@ -48,12 +54,18 @@ nav>#div5{
     align-items: center;
    
 }
-nav>#div5>a{
+nav>#div5>div>a{
     text-decoration: none;
+}
+nav>#div5>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 #div6{
     width: 100vw;
-    height: 200px;
+    height: 400px;
     background-color: chocolate;
     display: flex;
     align-items: center;
