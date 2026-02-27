@@ -1,0 +1,140 @@
+class Sample
+{	static String m_name="VIVO";
+	double m_cost;
+	String m_color;
+	static String u_name="VTU";
+	int c_cost;
+	static String c_name;
+	static String car_name="AUDI";
+	int car_cost;
+	String car_type;
+	static String school_name="Gec Karwar";
+	char s_grade;
+	int  s_strength;
+	static String tv_model="haier";
+	double t_cost;
+	String t_type;
+	static String b_brand="KTM";
+	double b_cost;
+	String b_color;
+	static String l_brand="LENOVO";
+	int l_cost;
+	String l_name;
+	static String h_name="KINGFISHERTOWER";
+	int h_cost;
+	String h_color;
+	static String cloth_color="BLUE";
+	int cloth_cost;
+	String cloth_size;
+	static String e_name="Maruti";
+	int e_id;
+	int e_sal;
+	
+
+	public static void main(String[] args) 
+	{
+		
+		Sample s1=new Sample();
+		Sample s2=new Sample();
+		Sample s3=new Sample();
+		Sample s4=new Sample();
+		Sample s5=new Sample();
+		Sample s6=new Sample();
+		Sample s7=new Sample();
+		Sample s8=new Sample();
+		Sample s9=new Sample();
+		Sample s10=new Sample();
+		Sample s11=new Sample();
+		Sample s12=new Sample();
+		Sample s13=new Sample();
+		Sample s14=new Sample();
+		Sample s15=new Sample();
+		Sample s16=new Sample();
+		Sample s17=new Sample();
+		Sample s18=new Sample();	
+		Sample s19=new Sample();
+		Sample s20=new Sample();
+
+		s1.m_cost=2000;
+		s1.m_color="blue";
+		s2.m_cost=30000;
+		s2.m_color="RED";
+		
+		s3.c_name="CS";
+		s3.c_cost=20000;
+		s4.c_name="ec";
+		s4.c_cost=90000;
+		
+		s5.car_cost=2000;
+		s5.car_type="DIESEL";
+		s6.car_cost=20000;
+		s6.car_type="PETROL";
+		
+		
+		s7.s_grade = 'A';
+		s7.s_strength = 500;
+		s8.s_grade = 'B';
+		s8.s_strength = 300;
+	
+		s9.t_cost = 25000;
+		s9.t_type = "LED";
+		s10.t_cost = 45000;
+		s10.t_type = "SMART TV";
+
+		s11.b_cost = 180000;
+		s11.b_color = "BLACK";
+		s12.b_cost = 220000;
+		s12.b_color = "ORANGE";
+		
+		s13.l_cost = 60000;
+		s13.l_name = "IdeaPad";
+		s14.l_cost = 75000;
+		s14.l_name = "ThinkPad";
+		
+		s15.h_cost = 5000000;
+		s15.h_color = "BLUE";
+		s16.h_cost = 2000000;
+		s16.h_color = "RED";
+		
+		s17.cloth_cost = 1500;
+		s17.cloth_size = "M";
+		s18.cloth_cost = 2000;
+		s18.cloth_size = "L";
+
+		s19.e_id = 101;
+		s19.e_sal = 25000;
+		s20.e_id = 102;
+		s20.e_sal = 30000;
+		
+		System.out.println("The mobile brand is "+m_name+" mobile cost is "+s1.m_cost+" mobile color is "+s1.m_color);
+		System.out.println("The mobile brand is "+m_name+" mobile cost is "+s2.m_cost+" mobile color is "+s2.m_color);
+		
+		System.out.println(" The brand name is "+s13.l_brand+" the laptop name is "+s13.l_name+" laptop cost is "+s13.l_cost);
+		System.out.println(" The brand name is "+s14.l_brand+" the laptop name is "+s14.l_name+" laptop cost is "+s14.l_cost);
+		
+		System.out.println("The university name is "+u_name+" course name is "+s3.c_name+" course cost is "+s3.c_cost);
+		System.out.println("The university name is "+u_name+" course name is "+s4.c_name+" course cost is "+s4.c_cost);	
+		
+		System.out.println("The car brand is "+car_name+" car cost is "+s5.car_cost+" car type is "+s5.car_type);
+		System.out.println("The car brand is "+car_name+" car cost is "+s6.car_cost+" car type is "+s6.car_type);
+			
+		System.out.println("The school name is "+school_name+" grade is "+s7.s_grade+" strength is "+s7.s_strength);
+		System.out.println("The school name is "+school_name+" grade is "+s8.s_grade+" strength is "+s8.s_strength);
+
+		System.out.println("The TV model is "+tv_model+" TV cost is "+s9.t_cost+" TV type is "+s9.t_type);
+		System.out.println("The TV model is "+tv_model+" TV cost is "+s10.t_cost+" TV type is "+s10.t_type);
+
+		System.out.println("The bike brand is "+b_brand+" bike cost is "+s11.b_cost+" bike color is "+s11.b_color);
+		System.out.println("The bike brand is "+b_brand+" bike cost is "+s12.b_cost+" bike color is "+s12.b_color);
+
+		System.out.println("The home name is "+h_name+" home cost is "+s15.h_cost+" hotel color is "+s15.h_color);
+		System.out.println("The home name is "+h_name+" home cost is "+s16.h_cost+" hotel color is "+s16.h_color);
+
+
+		System.out.println("The cloth color is "+cloth_color+" cloth cost is "+s17.cloth_cost+" cloth size is "+s17.cloth_size);
+		System.out.println("The cloth color is "+cloth_color+" cloth cost is "+s18.cloth_cost+" cloth size is "+s18.cloth_size);
+
+		System.out.println("The employee company is "+e_name+" employee id is "+s19.e_id+" employee salary is "+s19.e_sal);
+		System.out.println("The employee company is "+e_name+" employee id is "+s20.e_id+" employee salary is "+s20.e_sal);
+	}
+}

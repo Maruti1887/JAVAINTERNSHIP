@@ -1,0 +1,22 @@
+class Con5 
+{	
+	
+	String course_name;
+	String unvir_name;
+	int exam_cost;
+	Con5(String course_name,String unvir_name,int exam_cost){
+		
+		this.course_name=course_name;
+		this.unvir_name=unvir_name;
+		this.exam_cost=exam_cost;
+	}
+	
+	public static void main(String[] args) 
+	{
+		Con6 c=new Con6("CS","VTU",10000);
+		System.out.println(c.course_name);
+		System.out.println(c.unvir_name);
+		System.out.println(c.exam_cost);
+		
+	}
+}

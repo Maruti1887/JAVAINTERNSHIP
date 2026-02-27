@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            color: blue;
+        }
+        body>div:first-child{
+            color: chartreuse;
+        }
+        body>div:last-child{
+            color: black;
+            font: 50px;
+        }
+        body>div:nth-child(odd){
+            color: aqua;
+        }
+        body>div:last-child{
+            color: black;
+            font: 50px;
+        }
+        body>div:nth-child(3)>p:last-child{
+            color: brown;
+            height: 30px;
+            font-size: 40px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div>item1</div>
+    <div>item2</div>
+    <div>
+        <button>LOGIN</button>
+        <p>items</p>
+        <p>items</p>
+    </div>
+    <div>item4</div>
+    <div>item5</div>
+</body>
+</html>

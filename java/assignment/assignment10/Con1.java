@@ -1,0 +1,20 @@
+class Con1 
+{	
+	String m_name;
+	double m_cost;
+	String m_color;
+	Con1(String m_name,double m_cost,String m_color){
+		this.m_name=m_name;
+		this.m_cost=m_cost;
+		this.m_color=m_color;
+	}
+	public static void main(String[] args) 
+	{
+		Con1 C1=new Con1("Vivo",30000,"Blue");
+		System.out.println(C1.m_name);
+		System.out.println(C1.m_cost);
+		System.out.println(C1.m_color);
+		
+			
+	}
+}
