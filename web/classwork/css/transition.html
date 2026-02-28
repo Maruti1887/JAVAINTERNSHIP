@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: darkcyan;
+        }
+        body>h1{
+            text-align: center;
+            text-decoration: 3px dotted black underline;
+            text-transform: uppercase;
+        }
+        body>div:nth-child(3){
+            height: 400px;
+            width: 800px;
+            background-color: aqua;
+            position: absolute;
+            left: 200px;
+            top: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        body>div:nth-child(3)>div{
+            height: 300px;
+            width: 400px;
+            background-color: chocolate;
+            /* transition-property: background-color;
+            transition-duration: 3s;
+            transition-timing-function: linear;
+            transition-delay: 1s; */
+
+            /* transition:background-color 4s linear 0s, width 5s ; */
+
+            transition: all 5s linear 0s ;
+            
+
+        }
+        body>div:nth-child(3)>div:hover {
+           background-color: blue;
+           /* width: 700px;
+           height: 700px; */
+           /* transform: rotate(-270deg);
+           transform: rotate(270deg);
+           transform: translateX(500px);
+           transform: translateX(-500px);
+           transform: translateY(500px);
+           transform: translateY(-500px);
+           transform: translate(500px, 500px);
+           transform: translate(-500px, 500px);
+           transform: translate(500px, -500px);
+           transform: translate(-500px,-500px); */
+           /* transform: skewX(60deg);
+           transform: skewX(-60deg);
+           transform: skewY(60deg); */
+           /* transform: skewX(-60deg); */
+           /* transform: skew(90deg,80deg); */
+           transform: scaleX(2);
+           transform: scaleY(0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>Transiton in CSS3</h1>
+    <hr>
+        <div>
+            <div>
+
+            </div>
+        </div>
+</body>
+</html>

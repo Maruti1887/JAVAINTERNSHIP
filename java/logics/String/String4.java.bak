@@ -1,0 +1,22 @@
+class String4 
+{
+	public static void main(String[] args) 
+	{
+		String str="MADAM";
+		int j=str.length()-1;
+		int i=0;
+		while(j>i){
+			if(str.charAt(i)==str.charAt(j)){
+				i++;
+				j--;
+			}
+			
+		}
+		if(j>i){
+			System.out.println(" the string is palindrome");
+		}
+		else{
+			System.out.println(" the string is not palindroem");
+		}
+	}
+}
