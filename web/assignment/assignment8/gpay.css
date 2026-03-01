@@ -7,6 +7,8 @@
     align-items: center;
     background-color: rgb(48, 223, 223);
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc-u0Tr2mU-zmqu_TKCI2g5qRMp0zMJgiEMg&s");
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
 }
 body>div>div:nth-child(1)>input{
     width: 600px;
@@ -16,7 +18,7 @@ body>div>div:nth-child(1)>input{
     padding-left: 20px;
     box-shadow: 2px 2px 2px black;
 }
-body>div>div:nth-child(2){
+#nav1>div:nth-child(2){
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -32,9 +34,446 @@ body>div>div:nth-child(2){
 body>div>div:nth-child(2)>i{
     font-size: 20px;
     width: 100px;
+    
 }
-body>div>
+body>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+body>div:nth-child(2)>div{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(125, 125, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+body>div:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+#body3{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#body3>button{
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#body3>button>img{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#body4{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#body4>div{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    background-color: rgb(125, 125, 180);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#body5{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-#main1>div:nth-child(1)>div:nth-child(1){
 
+#body6{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#body6>div{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    background-color: rgb(125, 125, 180);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#body7{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#body7+h1{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#body7+h1>button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    margin-right: 280px;
+}
+
+#body8{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+#body8 div:nth-child(1){
+    height: 60px;
+    width: 60px;
+    /* background-color: red; */
+    background-image: url("https://static.vecteezy.com/system/resources/previews/051/805/644/non_2x/bsnl-transparent-orange-color-logo-free-png.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* box-shadow: 2px 2px 2px black; */
+    border-radius: 50px;
+    border: black solid 1px;
+}
+
+#body8 div:nth-child(2){
+    height: 60px;
+    width: 60px;
+    /* background-color: red; */
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Airtel_logo-01.png/500px-Airtel_logo-01.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* box-shadow: 2px 2px 2px black; */
+    border-radius: 50px;
+    border: black solid 1px;
+}
+
+#body8 div:nth-child(3){
+    height: 60px;
+    width: 60px;
+    /* background-color: red; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSohZW0W9TJymIUxUO7wDwLLWzxdugPz5FiRw&s");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* box-shadow: 2px 2px 2px black; */
+    border-radius: 50px;
+    border: black solid 1px;
+}
+
+#body8 div:nth-child(4){
+    height: 60px;
+    width: 60px;
+    /* background-color: red; */
+    background-image: url("https://www.mobigyaan.com/wp-content/uploads/2025/06/Vi-5G-logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* box-shadow: 2px 2px 2px black; */
+    border-radius: 50px;
+    border: black solid 1px;
+}
+
+#body9{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#body10{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#body10>div{
+    height: 70px;
+    width: 70px;
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: rgb(50, 50, 141);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#body11{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#body11+h1{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#body11+h1>button{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+     margin-right: 280px;
+}
+
+#body12{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#body12>div{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    background-color: rgb(125, 125, 180);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#body12>button{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    background-color: rgb(125, 125, 180);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+}
+
+#body13{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#body14{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#body14>div{
+    height:140px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 1px 1px 5px blue;
+}
+
+#body15{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#body15>div:nth-child(1){
+    height:60px;
+    width:60px;
+    background-color: rgb(125, 125, 180);
+    border-radius: 50%;
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR-ol-nZqwXuiXQRJukkq_8DtIlUID8wCUo9-mWy4ieP2427QI8");
+    background-size: cover;
+}
+#body15>div:nth-child(2){
+    height:60px;
+    width:60px;
+    background-color: rgb(125, 125, 180);
+    border-radius: 50%;
+    background-image: url("https://rewards.campcation.com/wp-content/uploads/2023/09/3.png");
+    background-size: cover;
+}
+#body15>div:nth-child(3){
+    height:60px;
+    width:60px;
+    background-color: rgb(125, 125, 180);
+    border-radius: 50%;
+    background-image: url("https://downloadr2.apkmirror.com/wp-content/uploads/2019/06/5d01b8e4d4535.png");
+    background-size: cover;
+}
+
+#body16{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#body17{
+    height: 150px;
+    width: 900px;
+    position: relative;
+    background-image: url("https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gpay_SG_Circuit_Breaker_Homescreen_artwork_1.width-1300.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+    padding: 10px;
+    position: relative;
+    left: 150px;
+
+}
+#body17>button{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
+#body18{
+    height: 200px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 250px;
+}
+#body18>div:nth-child(1){
+    display: flex;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+#body18>div:nth-child(2){
+    display: flex;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+#body18>div:nth-child(3){
+    display: flex;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+#body18>div:nth-child(1)>p{
+    position: relative;
+    right: 160px;
+}
+#body18>div:nth-child(2)>p{
+    position: relative;
+    right: 240px;
+}
+#body18>div:nth-child(3)>p{
+    position: relative;
+    right: 200px;
+}
+
+
+#body18>div>i{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+footer>#div20>div{
+    height: 90px;
+    background-color: rgb(48, 223, 223);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+footer>#div20>div>div:nth-child(2)>i{
+    height: 20px;
+    width:50px;
+    border-radius: 50%;
+    /* background-color: rgb(54, 54, 192); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+} 
+
+footer>#div20>div>div:nth-child(1)>i{
+    height: 30px;
+    width:50px;
+    border-radius: 20%;
+    background-color: rgb(54, 54, 192);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} 
+footer>#div20>div>div:nth-child(3)>p:nth-child(1){
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    background-color: rgb(54, 54, 192);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+} 
+footer>#div20>div>div:nth-child(3)>p:nth-child(2){
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+} 
+
+body>h1{
+    margin-left:140px;
 }

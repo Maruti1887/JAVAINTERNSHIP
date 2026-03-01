@@ -1,0 +1,46 @@
+class Extra 
+{
+	public static void main(String[] args) 
+	{
+		String s="hi    helllo    how    are   you ";
+		System.out.println(s);
+		System.out.println(s.replaceAll(" +" ," "));
+		System.out.println("-------------------------");
+		String s1="hi44433helllo9045how45543are123456you ";
+		System.out.println(s1);
+		System.out.println(s1.replaceAll("[0-9]" ,""));
+		System.out.println("-------------------------");
+		String s2="hi44433helllo9045how45543are123456YOU ";
+		System.out.println(s2);
+		System.out.println(s2.replaceAll("[0-9,A-Z]" ,""));
+		System.out.println("-------------------------");
+		String s3="hi44433helllo9045how45543are123456you ";
+		System.out.println(s3);
+		System.out.println(s3.replaceAll("[A-Z,a-z]" ,""));
+		System.out.println("-------------------------");
+		
+		
+		System.out.println(" To remove the special charcters");
+		String s4="hi44433helllo9045how4&^%$#@5543are123456you#3##$$%!@$%^^&*&^%$";
+		System.out.println(s4);
+		System.out.println(s4.replaceAll("[^a-z]" ,""));
+		System.out.println("-------------------------");
+		
+		
+		System.out.println(" To remove the vowels charcters");
+		String s5="hi hello how are you";
+		System.out.println(s5);
+		System.out.println(s5.replaceAll("[aeiou]" ,""));
+		System.out.println("-------------------------");
+		
+		
+		System.out.println(" To remove the consonant charcters");
+		String s5="hi44433helllo9045how4&^%$#@5543are123456you#3##$$%!@$%^^&*&^%$";
+		System.out.println(s5);
+		System.out.println(s5.replaceAll("[^aeiou]" ,""));
+		System.out.println("-------------------------");
+		
+		
+		
+	}
+}
