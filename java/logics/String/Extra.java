@@ -41,6 +41,24 @@ class Extra
 		System.out.println("-------------------------");
 		
 		
+		System.out.println(" To count the only characters");
+		String s7="Good Mor ning";
+		System.out.println(s7);
+		System.out.println(s7.replaceAll(" " ,"").length());
+		System.out.println("-------------------------");
+		
+		System.out.println("Calculate the consonat ");
+		String s8="Good Mor ning";
+		System.out.println(s8);
+		System.out.println(s8.replaceAll("[aeiou ]" ,"").length());
+		System.out.println("-------------------------");
+		
+		System.out.println("Calculate the consonat ");
+		String s9="Good Mor ning";
+		System.out.println(s9);
+		System.out.println(s9.replaceAll("[^aeiou ]" ,"").length());
+		System.out.println("-------------------------");
+		
 		
 	}
 }

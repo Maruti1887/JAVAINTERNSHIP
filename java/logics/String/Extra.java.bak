@@ -35,11 +35,29 @@ class Extra
 		
 		
 		System.out.println(" To remove the consonant charcters");
-		String s5="hi44433helllo9045how4&^%$#@5543are123456you#3##$$%!@$%^^&*&^%$";
-		System.out.println(s5);
-		System.out.println(s5.replaceAll("[^aeiou]" ,""));
+		String s6="hi44433helllo9045how4&^%$#@5543are123456you#3##$$%!@$%^^&*&^%$";
+		System.out.println(s6);
+		System.out.println(s6.replaceAll("[^aeiou]" ,""));
 		System.out.println("-------------------------");
 		
+		
+		System.out.println(" To count the only characters");
+		String s7="Good Mor ning";
+		System.out.println(s7);
+		System.out.println(s7.replaceAll(" " ,"").length());
+		System.out.println("-------------------------");
+		
+		System.out.println("Calculate the consonat ");
+		String s8="Good Mor ning";
+		System.out.println(s8);
+		System.out.println(s8.replaceAll("[aeiou ]" ,"").length());
+		System.out.println("-------------------------");
+		
+		System.out.println("Calculate the consonat ");
+		String s8="Good Mor ning";
+		System.out.println(s8);
+		System.out.println(s8.replaceAll("[^aeiou ]" ,"").length());
+		System.out.println("-------------------------");
 		
 		
 	}
