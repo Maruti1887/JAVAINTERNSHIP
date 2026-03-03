@@ -6,7 +6,7 @@ class Sample2 extends Sample1
 {
 	int y=20;
 }
-class Sample3 extends Sample3
+class Sample3 extends Sample2
 {
 	void test(){
 		System.out.println(" this is the multilevel inheritance");
@@ -14,10 +14,6 @@ class Sample3 extends Sample3
 	}
 		
 }
-
-
-
-
 
 
 

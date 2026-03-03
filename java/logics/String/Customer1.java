@@ -1,0 +1,25 @@
+class Carfactory
+{
+	void car(){
+		System.out.println("Car");
+	}
+}
+class Distributor{
+	static void Producer(Carfactory c3)
+		{
+			c3.car();
+		}
+}
+class Showroom{
+	static void room(Carfactory c2){
+		Distributor.Producer(c2);
+	}
+}
+class Customer1
+{
+	public static void main(String[] args) 
+	{
+		Carfactory c1=new Carfactory();
+		Showroom.room(c1);
+	}
+}

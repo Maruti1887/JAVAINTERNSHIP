@@ -1,0 +1,24 @@
+class Methodover1
+{
+	public static void disp(int no){
+		System.out.println(" this is th number only");
+	}
+	public static void disp(String str){
+	System.out.println(" this is the strings only");
+	
+	}
+	public static void disp(int no,String str){
+		System.out.println(" this is the numbers with strings");
+	}
+	public static void disp(String str,int no){
+	System.out.println(" this is the strings with numbers");
+	}
+	
+	public static void main(String[] args) 
+	{
+		disp(101);
+		disp("HEllo");
+		disp(101,"Hello");
+		disp("hello", 101);
+	}
+}

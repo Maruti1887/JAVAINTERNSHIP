@@ -1,0 +1,29 @@
+class Farmer
+{
+	void crop(){
+		System.out.println(" The crop is Wheat");
+		
+	}
+}
+class Apmc
+
+{
+	static void market(Farmer m3){
+		m3.crop();
+	}
+}
+class Shop
+{static void order(Farmer m2){
+	Apmc.market(m2);
+}
+
+}
+
+class Customer2
+{
+	public static void main(String[] args) 
+	{
+		Farmer m1=new Farmer();
+		Shop.order(m1);
+	}
+}

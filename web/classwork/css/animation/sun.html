@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+             
+            
+        }
+        div{
+            border-radius: 50%;
+            height: 400px;
+            width: 400px;  
+            background-color: red;
+            position:absolute;
+            left:250px;
+            top: 100px;
+            border-top: 15px solid yellow;
+            border-bottom: 15px solid blue;
+            border-left: 15px solid pink;
+            border-right: 15px solid purple;
+            animation: rotate 2s linear 0s infinite;
+
+               }
+
+            @keyframes rotate {
+                from{
+                    transform: rotate(0deg) ;
+                }
+                to{
+                    transform:rotate(360deg);
+                }
+                
+            }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

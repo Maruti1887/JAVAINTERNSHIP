@@ -1,0 +1,185 @@
+       *{
+            margin: 0;
+        }
+       
+       body{
+            background-color: black;
+        }
+        body>div:nth-child(1){
+            height: 400px;
+            width: 100%;
+            background-color: rgb(85, 143, 201);
+            position:relative;
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        body>div:nth-child(1)>div:nth-child(1){
+            height: 200px;
+            width: 300px;
+            /* background-color: brown; */
+            position: relative;
+            top: 0px;
+            animation: box1 30s linear 0s infinite;
+            font-size: 100px;
+        }
+   
+
+
+        body>div:nth-child(1)>div:nth-child(2){
+            height: 200px;
+            width: 300px;
+            /* background-color: brown; */
+            position: relative;
+            top: 50px;
+            animation: box3 10s linear 0s infinite;
+            font-size: 120px;
+        }
+   
+        body>div:nth-child(1)>div:nth-child(3){
+            height: 200px;
+            width: 300px;
+            /* background-color: brown; */
+            position: relative;
+            top: 50px;
+            animation: box2 10s linear 0s infinite;
+            animation-direction: alternate;
+            font-size: 120px;
+        }
+        body>div:nth-child(1)>div:nth-child(4){
+            height: 200px;
+            width: 300px;
+            /* background-color: brown; */
+            position: relative;
+            top: 50px;
+            animation: box3 10s linear 0s infinite;
+            animation-direction: alternate-reverse;
+            font-size: 120px;
+        }
+        body>div:nth-child(1)>div:nth-child(5){
+            height: 200px;
+            width: 300px;
+            /* background-color: brown; */
+            position: relative;
+            top: 50px;
+            animation: box4 10s linear 0s infinite;
+            animation-direction: alternate;
+            font-size: 120px;
+        }
+        body>div:nth-child(1)>div:nth-child(6){
+            height: 200px;
+            width: 300px;
+            /* background-color: brown; */
+            position: relative;
+            top: 50px;
+            animation: box2 10s linear 0s infinite;
+            animation-direction: alternate;
+            font-size: 120px;
+        }
+        body>div:nth-child(1)>div:nth-child(7)>p{
+            height: 200px;
+            width: 300px;
+            /* background-color: brown; */
+            position: relative;
+            top: 50px;
+            /* right: 1000px; */
+            left: 0px;
+            margin-right: 500px;
+            /* margin-left: 50px; */
+            animation: box5 10s linear 0s infinite;
+            animation-direction: alternate;
+            font-size: 120px;
+            
+        }
+        
+        
+        @keyframes box1 {
+            0%{
+                /* background-color: pink; */
+                /* background-image: url("https://sl.bing.net/eQd75YgO33Y"); */
+                position: relative;
+                top: 20px;
+                left: 0px;
+
+             }
+             100%{
+              
+                position: relative;
+                top: 10px;
+                left: 1000px;
+             }  
+             
+            
+        }
+        @keyframes box2 {
+            0%{
+                /* background-color: pink; */
+                /* background-image: url("https://sl.bing.net/eQd75YgO33Y"); */
+                position: relative;
+                top: 20px;
+                right: 0px;
+
+             }
+             100%{
+              
+                position: relative;
+                top: 20px;
+                right: 200px;
+             }  
+             
+            
+        }
+        @keyframes box3 {
+            0%{
+                /* background-color: pink; */
+                /* background-image: url("https://sl.bing.net/eQd75YgO33Y"); */
+                position: relative;
+                top: 0px;
+                right: 0px;
+
+             }
+             100%{
+              
+                position: relative;
+                top: 0px;
+                right: 200px;
+             }  
+             
+            
+        }
+        @keyframes box4 {
+            0%{
+                /* background-color: pink; */
+                /* background-image: url("https://sl.bing.net/eQd75YgO33Y"); */
+                position: relative;
+                top: 10px;
+                right: 0px;
+
+             }
+             100%{
+              
+                position: relative;
+                top: 0px;
+                right: 200px;
+             }  
+             
+            
+        }
+@keyframes box5 {
+            0%{
+                /* background-color: pink; */
+                /* background-image: url("https://sl.bing.net/eQd75YgO33Y"); */
+                position: relative;
+                top: 0px;
+                left: 0px;
+
+             }
+             100%{
+              
+                position: relative;
+                top: 0px;
+                right: 200px;
+             }  
+             
+            
+        }

@@ -14,13 +14,6 @@ class Sample3 extends Sample2
 	}
 		
 }
-
-
-
-
-
-
-
 class Multilevel
 {
 	public static void main(String[] args) 

@@ -1,0 +1,20 @@
+class Employee
+{
+	static void disp(int no){
+		System.out.println("this is the employee no");
+	}
+	
+	static void disp(String s){
+		System.out.println("This is the employee name");
+	}
+	
+	
+	
+	public static void main(String[] args) 
+	{
+		
+		disp(45);
+		disp("MARUTI");
+		
+	}
+}

@@ -1,0 +1,29 @@
+class Zudio
+{
+	void cloth1(){
+		System.out.println("These aare the cloth");
+		
+	}
+}
+class Deliveryguy
+{
+	static void stand1(Zudio c3){
+		c3.cloth1();
+	}
+}
+class Flipkart
+{
+	static void route(Zudio c2){
+	Deliveryguy.stand1(c2);
+}
+
+}
+
+class Customer6
+{
+	public static void main(String[] args) 
+	{
+		Zudio c1=new Zudio();
+		Flipkart.cloth(c1);
+	}
+}
