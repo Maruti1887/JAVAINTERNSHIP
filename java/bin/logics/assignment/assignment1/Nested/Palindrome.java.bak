@@ -1,0 +1,17 @@
+class Palindrome
+{
+	
+	public static void main(String[] args) 
+	{
+		int num=500;
+		if(num>=100 && num<=999){
+			if(exp>5)
+				System.out.println(" The person is experienced and getting the salary 50000");
+			else
+				System.out.println(" The person is not to experienced but talented");
+			
+		}
+		else
+			System.out.println("The perosn is fresher earning the salary below 50000");
+	}
+}

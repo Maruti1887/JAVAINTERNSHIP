@@ -1,0 +1,80 @@
+class Parameter{
+	public static void main(String[] args){
+	System.out.println(" USing paramaeter ");
+	System.out.println(" ----------------------------------------");
+	Triangle T1=new Triangle();
+	T1.area(10,20);
+	Circle C1=new Circle();
+	C1.area(10);
+	Rectangle R1=new Rectangle();
+	R1.area(10,20);
+	Parr P1=new Parr();
+	P1.area(10,20);
+	Ellipse E1=new Ellipse();
+	E1.area(10,20);
+	Trapezoid Tr=new Trapezoid();
+	Tr.area(10,20,30);
+	Sector S1=new Sector();
+	S1.area(20,3.4);
+	Square S2 =new Square();
+	S2.area(20);
+	
+	}
+}
+class Triangle{
+	void area(int b,int g){
+	double res=b*h*0.5;
+	System.out.println(" the area of the triagnle is " +res);
+	}
+}
+
+class Circle{
+	void area(int r){
+	double pi=3.142;
+	double res=pi*r*r;
+	System.out.println(" the area of the Circle is " +res);
+	}
+}
+class Rectangle
+{
+	void area(int a, int b){
+		int res=a*b;
+		System.out.println(" The area of the rectangle is"+res);
+	}
+}
+class Parr
+{
+	void area(int a,int b){
+		int res=a*b;
+		System.out.println(" The area of the Parrelelogram is"+res);
+	}
+}
+class Ellipse{
+	void area(int b,int a){
+	double pi=3.142;
+	double res=pi*a*b;
+	System.out.println(" the area of the Ellipse is " +res);
+	}
+}
+
+class Sector{
+	void area(int r,double theta){
+	double res=theta*r*r*0.5;
+	System.out.println(" the area of the Sector is " +res);
+	}
+}
+class Trapezoid
+{
+	void area(int a,int b,int h){
+		double res=0.5*(a+b)*h;
+		System.out.println(" The area of the Trapezoid is"+res);
+	}
+}
+class Square
+{
+	void area(int a){
+		int res=a*a;
+		System.out.println(" The area of the Square is"+res);
+	}
+}
+

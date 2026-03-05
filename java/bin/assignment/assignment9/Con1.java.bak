@@ -1,0 +1,19 @@
+class Con1
+{	double mobile_cost;
+	String mobile_model_name;
+	String mobile_colour;
+	
+	Con1(double a,String b, String c){
+		mobile_cost=a;
+	    mobile_model_name=b;
+	    mobile_colour=c;
+	}
+	public static void main(String[] args) 
+	{
+		Con1 C1=new Con1(10000,"MARUTI","BLUE");
+		System.out.println(" The mobile cost is" +C1.mobile_cost);
+		System.out.println(C1.mobile_model_name);
+		System.out.println(C1.mobile_colour);
+		
+	}
+}

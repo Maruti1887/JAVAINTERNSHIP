@@ -1,0 +1,15 @@
+class Main{
+	public static void main(String[] args){
+	Triangle T1=new trianlge();
+	T1.area();
+	
+	}
+}
+class Triangle{
+	void area(){
+	int h=10;
+	int b=20;
+	double res=b*h*0.5;
+	System.out.println(" the area of the triagnle is " +res);
+	}
+}

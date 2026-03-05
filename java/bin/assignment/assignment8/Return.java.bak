@@ -1,0 +1,107 @@
+class Return{
+	public static void main(String[] args){
+	System.out.println(" USing without paramaeter and return type ");
+	System.out.println(" ----------------------------------------");
+	Triangle T1=new Triangle();
+	double res = T1.area();
+	System.out.println(" the area of the triagnle is " +res);
+	Circle C1=new Circle();
+	double res1=C1.area();
+	System.out.println(" the area of the Circle is " +res1);
+	Rectangle R1=new Rectangle();
+	int res2=R1.area();
+	System.out.println(" The area of the rectangle is"+res2);
+	Parr P1=new Parr();
+	int res3=P1.area();
+	System.out.println(" The area of the Parrelelogram is"+res3);
+	Ellipse E1=new Ellipse();
+	double res4=E1.area();
+	System.out.println(" the area of the Ellipse is " +res4);
+	Trapezoid Tr=new Trapezoid();
+	double res5=Tr.area();
+	System.out.println(" The area of the Trapezoid is"+res5);
+	Sector S1=new Sector();
+	double res6=S1.area();
+	System.out.println(" the area of the Sector is " +res6);
+	Square S2 =new Square();
+	double res7=S2.area();
+	System.out.println(" The area of the Square is"+res7);
+	
+	}
+}
+class Triangle{
+	double area(){
+	int h=10;
+	int b=20;
+	double res=b*h*0.5;
+	return res;
+	}
+}
+
+class Circle{
+	double area(){
+	int r=10;
+	double pi=3.142;
+	double res=pi*r*r;
+	return res;
+	
+	}
+}
+class Rectangle
+{
+	int area(){
+		int a=10;
+		int b=20;
+		int res=a*b;
+		return res;
+	}
+}
+class Parr
+{
+	int area(){
+		int a=10;
+		int b=20;
+		int res=a*b;
+		return res;
+		
+	}
+}
+class Ellipse{
+	double  area(){
+	int b=10;
+	int a=20;
+	double pi=3.142;
+	double res=pi*a*b;
+	return res;
+	
+	}
+}
+
+class Sector{
+	double area(){
+	int r=10;
+	double theta=3.2;
+	double res=theta*r*r*0.5;
+	return res;
+	
+	}
+}
+class Trapezoid
+{
+	double area(){
+		int a=10;
+		int b=20;
+		int h=10;
+		double res=0.5*(a+b)*h;
+		return res;
+	}
+}
+class Square
+{
+	int area(){
+		int a=10;
+		int res=a*a;
+		return res;
+	}
+}
+

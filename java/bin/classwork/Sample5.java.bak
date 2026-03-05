@@ -1,0 +1,13 @@
+class  Sample5
+{
+	public static void main(String[] args) 
+	{
+		int a=10;
+		int b=20;
+		int c=20;
+		int d;
+		d=a*b*c;
+		System.out.println(" the value after multiflication is" +d);
+		
+	}
+}

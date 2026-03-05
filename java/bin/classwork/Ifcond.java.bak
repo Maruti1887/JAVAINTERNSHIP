@@ -1,0 +1,10 @@
+class Ifcond 
+{
+	public static void main(String[] args) 
+	{
+		int age=12;
+		if(age<15){
+			System.out.println(" the child age is"+age);
+			
+	}
+}}

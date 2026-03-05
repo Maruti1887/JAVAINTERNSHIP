@@ -1,0 +1,28 @@
+class Area
+{
+	public static void tri(double b, double h){
+		final double pi=3.142;
+		double res= pi*b*h;
+		System.out.println(" the area of triangle is " + res);
+	}
+	public static void squre(double a){
+		double res= a*a;
+		System.out.println(" the area of Square is " + res);
+		
+	}
+	public static void rectangle(double b, double h){
+		double res=b*h;
+		System.out.println(" The Area of Rectangle is " + res);
+	}
+	public static void parllelogram( double b,double h){
+		
+		System.out.pri
+	}
+	
+	public static void main(String[] args) 
+	{
+		tri(30,20);
+		squre(30);
+		rectangle(10,30);
+	}
+}

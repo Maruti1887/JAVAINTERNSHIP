@@ -1,0 +1,18 @@
+class Stirng7
+{
+	static String rev(String s){
+		String rev="";
+		for (int i=s.length()-1;i>=0;i--){
+			rev=rev+s.charAt(i);
+			}
+		return rev;
+	}
+	public static void main(String[] args) 
+	{
+		String str="Methodoveloading";
+		String first=str.substring(0,6);
+		String last=str.substring(7);
+		System.out.println(rev(first)+last);
+		System.out.println(first+rev(last));
+	}
+}

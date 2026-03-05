@@ -1,0 +1,12 @@
+class Coffee_shop 
+{
+	public static void billing( int copy_cnt){
+		int copy_price=12;
+		int res = copy_cnt*copy_price;
+		System.out.println("The total ammount of the" +copy_cnt+"is" +res);
+	}	
+	public static void main(String[] args) 
+	{
+		billing(10);
+	}
+}

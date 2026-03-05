@@ -1,0 +1,18 @@
+class Experience
+{
+	
+	public static void main(String[] args) 
+	{
+		int sal=50000;
+		int exp=6;
+		if(sal>50000){
+			if(exp>5)
+				System.out.println(" The person is experienced and getting the salary 50000");
+			else
+				System.out.println(" The person is not to experienced but talented");
+			
+		}
+		else
+			System.out.println("The perosn is fresher earning the salary below 50000");
+	}
+}

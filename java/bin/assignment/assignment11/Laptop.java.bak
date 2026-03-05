@@ -1,0 +1,19 @@
+class Laptop 
+{
+	static String l_brand="LENOVO";
+	int l_cost;
+	String l_name;
+	
+	public static void main(String[] args) 
+	{
+		Laptop l1=new Laptop();
+		Laptop l2=new Laptop();
+		l1.l_name="Ideapad";
+		l1.l_cost=20000;
+		
+		l2.l_name="LOQ";
+		l2.l_cost=40000;
+		
+		System.out.println(" The brand name is "+l_brand+"the laptop name is "+l1.l_name+"laptop cost is "+l1.l_cost);
+	}
+}
