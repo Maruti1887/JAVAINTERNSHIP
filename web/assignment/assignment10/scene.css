@@ -200,7 +200,8 @@ body>div:nth-child(3){
 body>div:nth-child(3)>p{
     
    font-size: 60px;
-    
+   transition: all;
+
     
 
 }
@@ -246,6 +247,7 @@ body>div:nth-child(5)>img{
 body>div:nth-child(5)>p{
    font-size: 50px;
    position: absolute;
+   top: 0;
    animation: box12 10s linear 0 infinite;
 }
 @keyframes box12 {
@@ -258,6 +260,6 @@ body>div:nth-child(5)>p{
     100%{
         
         top: 150px;
-        right: 0px;
+        left: 0px;
     }
 }

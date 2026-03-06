@@ -9,6 +9,6 @@ class Addition
 	}
 	public static void main(String[] args) 
 	{
-		add(10,50);
+		add(10,50)
 	}
 }

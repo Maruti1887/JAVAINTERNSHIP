@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body>div{
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            height: 700px;
+            gap: 10px 10px;
+            /* grid-template-areas: " hdr1 hdr1 hdr1"
+                                    "hrd2 hdr2 hdr2" */
+                                    ;
+
+        }
+        body>div>div{
+            border: 2px solid red;
+        }
+        body>div>div:nth-child(1){
+            background-color: blue;
+           grid-column-start: 1;
+           grid-column-end: 4;
+           grid-row-start: 1;
+           grid-row-end: 2;
+        }
+        body>div>div:nth-child(2){
+            background-color: blue;
+           grid-column-start: 1;
+           grid-column-end: 4;
+           grid-row-start: 2;
+           grid-row-end: 3;
+        }
+        body>div>div:nth-child(3){
+            background-color: blue;
+           grid-column-start: 1;
+           grid-column-end: 2;
+           grid-row-start: 3;
+           grid-row-end: 4;
+        }
+        body>div>div:nth-child(4){
+            background-color: blue;
+           grid-column-start: 2;
+           grid-column-end: 3;
+           grid-row-start: 3;
+           grid-row-end: 4;
+        }
+        body>div>div:nth-child(5){
+            background-color: blue;
+           grid-column-start: 3;
+           grid-column-end: 4;
+           grid-row-start: 3;
+           grid-row-end: 4;
+        }
+        body>div>div:nth-child(6){
+            background-color: blue;
+           grid-column-start: 3;
+           grid-column-end: 4;
+           grid-row-start: 3;
+           grid-row-end: 4;
+        }
+        body>div>div:nth-child(7){
+            background-color: blue;
+           grid-column-start: 1;
+           grid-column-end: 4;
+           grid-row-start: 4;
+           grid-row-end: 5;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>items1</div>
+        <div>items2</div>
+        <div>items3</div>
+        <div>items4</div>
+        <div>items5</div>
+        <div>items6</div>
+        <div>items7</div>
+    </div>
+    
+</body>
+</html>

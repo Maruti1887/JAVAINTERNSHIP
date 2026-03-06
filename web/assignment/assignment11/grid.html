@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(14, 22, 110);
+        }
+        body>h1{
+            color: crimson;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        body>div>div{
+            background-color: rgb(33, 119, 119);
+            display: grid;
+            
+            width: 900px;
+            grid-template-columns: 24% 24% 24% 24%;
+            grid-template-rows: 15% 15% 15% 15% 15% 15% 15%;
+            height: 500px;
+            gap: 20px 10px;
+
+        }
+        body>div>div>div{
+            border:2px solid red;
+            text-align: center;
+        }
+        body>div>div>div:nth-child(1){
+           background-color: blue;
+           grid-column-start: 1;
+           grid-column-end: 2;
+           grid-row-start: 1;
+           grid-row-end: 3;
+           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB8To6hnBYEUh8MsuO9sKSx3LLXdSKM6eTCQ&s");
+           background-size: cover;
+           background-repeat: no-repeat;
+        }
+        body>div>div>div:nth-child(2){
+            background-color: blue;
+           grid-column-start: 2;
+           grid-column-end:  3;
+           grid-row-start: 1;
+           grid-row-end: 2;
+           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShEhx7X38A8L1FseOg_Y2INL03_7tIsoQOAQ&s");
+           background-size: cover;
+           background-repeat: no-repeat;
+        }
+        body>div>div>div:nth-child(3){
+            background-color: rgb(103, 209, 65);
+           grid-column-start: 3;
+           grid-column-end: 4;
+           grid-row-start: 1;
+           grid-row-end: 4;
+        }
+        body>div>div>div:nth-child(4){
+            background-color: blue;
+           grid-column-start: 4;
+           grid-column-end: 5;
+           grid-row-start: 1;
+           grid-row-end: 3;
+           background-image: url("https://wallpapercave.com/wp/wp12606121.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+        }
+        body>div>div>div:nth-child(5){
+            background-color: blue;
+           grid-column-start: 1;
+           grid-column-end: 2;
+           grid-row-start: 3;
+           grid-row-end: 4;
+           background-image: url("https://www.shutterstock.com/image-illustration/kannada-one-indian-classical-official-260nw-2645431593.jpg");
+           background-size:  cover;
+           background-repeat: no-repeat;
+        }
+        body>div>div>div:nth-child(6){
+            background-color: rgb(198, 140, 197);
+           grid-column-start: 2;
+           grid-column-end: 3;
+           grid-row-start: 2;
+           grid-row-end: 6;
+        }
+        body>div>div>div:nth-child(7){
+            background-color: blue;
+           grid-column-start: 3;
+           grid-column-end: 4;
+           grid-row-start: 4;
+           grid-row-end: 6;
+           background-image: url("https://static.toiimg.com/thumb/imgsize-23456,msid-77519530,width-600,resizemode-4/77519530.jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+        } 
+        body>div>div>div:nth-child(8){
+            background-color: blue;
+           grid-column-start: 4;
+           grid-column-end: 5;
+           grid-row-start: 3;
+           grid-row-end: 5;
+           background-image: url("https://wp.clutchpoints.com/wp-content/uploads/2025/02/WWE-news-Roman-Reigns-NSFW-reason-for-not-retiring-yet.jpg?resize=1200,1200");
+           background-size: cover;
+           background-repeat: no-repeat;
+        } 
+        body>div>div>div:nth-child(9){
+            background-color: blue;
+           grid-column-start: 1;
+           grid-column-end: 2;
+           grid-row-start: 4;
+           grid-row-end: 6;
+           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPgiBz7uGWakFTV9N3DaMBRlOqRu84WhfOCg&s");
+           background-size: cover;
+           background-repeat: no-repeat;
+        }
+        body>div>div>div:nth-child(10){
+            background-color: blue;
+           grid-column-start: 4;
+           grid-column-end: 5;
+           grid-row-start: 5;
+           grid-row-end: 6;
+           background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRizH7g6znx3PML1uvTaV6dlYOGvC3GR9vJKA&s");
+           background-size: cover;
+           background-repeat: no-repeat;
+        }  
+        
+
+
+
+    </style>
+</head>
+<body>
+    <h1>
+        GRID ITEMS
+    </h1>
+    <hr>
+    <div>
+        <div>
+        <div></div>
+        <div></div>
+        <div><h1>KING VIRAT KOHLI</h1><p>Virat Kohli, widely hailed as "King Kohli," remains a central figure in Indian cricket as of March 2026. While he has stepped away from some formats, ODIs and for Royal Challengers Bengaluru (RCB) in the IPL. </p></div>
+        <div></div>
+        <div></div>
+        <div><h1>ROCKING STAR YASH</h1><P>Naveen Kumar Gowda, famously known as Yash, is a leading Indian actor primarily active in Kannada cinema. He is best known for his portrayal of "Rocky" in the K.G.F. film series, which brought him massive pan-India stardom.</P></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        </div>
+    </div>
+</body>
+</html>
