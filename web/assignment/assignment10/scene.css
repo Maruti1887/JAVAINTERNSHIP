@@ -74,7 +74,7 @@
             position: relative;
            
             animation: box2 10s linear 0s infinite;
-            animation-direction: alternate;
+            animation-direction: alternate-reverse;
             font-size: 120px;
         }
         body>div:nth-child(1)>div:nth-child(7)>p{

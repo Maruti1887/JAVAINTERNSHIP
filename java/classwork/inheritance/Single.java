@@ -5,13 +5,9 @@ class Demo11 extends Demo1{
 	
 	void demo2(){
 		System.out.println("The single level inheritance");
-	
+		System.out.println(x);
 	}
 }
-
-
-
-
 class  Single
 {
 	public static void main(String[] args) 

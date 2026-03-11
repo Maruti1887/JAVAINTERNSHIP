@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        section{
+            display: flex;;
+        }
+        body>section>div{
+            height: 70vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        section>div>div:nth-child(1){
+            
+            height: 90%;
+            width: 50%;
+            display: flex;
+            justify-content: space-around;
+            align-items: bottom;
+        }
+        section>div>div:nth-child(2){
+            
+            height: 40%;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+         section>div>div:nth-child(2)>p{
+            text-align: justify;
+         }
+        @media screen and (min-width: 469px) and (max-width: 768px) {
+            section>div{
+                display: flex;
+                flex-direction: column;
+                
+            }
+            section>div>div:nth-child(2)>p{
+                width: 90%;
+            }
+         }
+         @media screen and (min-width:769px)and (max-width:968px) {
+            section>div{
+                display: flex;
+                flex-direction: column;
+                
+            }
+            section>div>div:nth-child(2)>p{
+                width: 90%;
+                background-color: blue;
+            }
+         }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfv0x1ICYLIyM9IYENWOIbjppKFx5wvOkGbw&s" alt="" height="90%" width="90%">
+            </div>
+    
+
+            <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ipsum? Dolores natus ab laborum modi placeat velit voluptates numquam cumque odio repudiandae, rerum ea porro expedita. Doloribus molestiae voluptatum voluptatem.
+                Incidunt rem saepe quas iste minima ad ducimus aliquam nam reprehenderit eius, facere culpa tempora sapiente eligendi quaerat sint enim quo aspernatur aperiam nihil numquam dolorum ab excepturi quae! Cumque?
+                t ab cumque.
+            </p>
+            <button>CLICK</button>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
