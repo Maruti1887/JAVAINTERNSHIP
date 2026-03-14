@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* this is belongs to css specificity */
+        p{
+            color: aqua;
+        }
+        #demo{
+            color: blue;
+        }
+        .test{
+            color: brown !important;
+        }
+
+        /* this is belongs to the font properties */
+      article{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 9px;
+        font-weight: bold;
+        font-style: oblique;
+
+      }
+
+      /* this is belongs to the z-index  */
+      section{
+        height: 200px;
+        background-color: black;
+        position: relative;
+      }
+      section>div:nth-child(1){
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 40;
+      }
+      section>div:nth-child(2){
+        height: 100px;
+        width: 110px;
+        background-color: rgb(72, 0, 255);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 30;
+      }
+       
+
+      /* this is belongs to color */
+      /* hexa color(a-f,0-9) */
+
+      h5{
+        color: #ff67;
+      }
+      /* rgb (0-255) */
+      h5{
+        color: rgb(72, 0, 255);
+      }
+
+      /* rgba */
+      h5{
+        height: 100px;
+        color:rgba(red, green, blue, 0.1);
+
+        background-color: red;
+        opacity: 0.5;
+      }
+
+      /* display properties */
+
+      /* h4{
+        height: 80px;
+        background-color: brown;
+        display: inline;
+      }
+      span{
+        height: 80px;
+        width: 50px;
+        background-color: brown;
+        display: block;
+      } */
+
+
+      h3>span{
+        background-color: aquamarine;
+        display: inline-block;
+        height: 40px;
+        width: 100px;
+
+      }
+
+    </style>
+</head>
+<body>
+    <h1>css specificity</h1>
+    <h2>ans: it is used to change the priority of simple selectors by giving !important</h2>
+    <p id = "demo" class="test">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, perferendis blanditiis. Soluta eum esse odio voluptas eius labore suscipit sed molestiae accusantium ipsam itaque quasi alias modi error, minus rerum!
+        Nemo rerum nihil nisi cum magni corrupti ab perferendis quod doloremque libero, aliquam repudiandae eveniet eaque ipsam reprehenderit perspiciatis illo sequi exercitationem. In accusantium repellat expedita maiores neque quisquam sit?
+        Quod voluptas, maxime hic expedita excepturi nisi blanditiis impedit quae porro quasi? Necessitatibus nesciunt in perferendis deserunt suscipit enim, officiis similique cupiditate consequatur! Laboriosam voluptatum optio nobis libero odio enim?
+        Impedit deleniti voluptatum, nulla qui ut hic laudantium dignissimos voluptas quam quos debitis eum, nisi tempore quis provident ea distinctio! Saepe molestias at enim quia illum nemo cum velit eius!
+        Quisquam, atque explicabo dolore ab temporibus dignissimos! Fugiat sint ducimus quasi natus placeat eveniet ab commodi nam odit, nulla incidunt. Obcaecati dolorum ullam, eligendi veniam ipsa consequuntur ratione totam possimus!
+    </p>
+<hr>
+
+    <h1>Font properties</h1>
+    <article>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus iusto odio quas beatae doloremque ratione exercitationem enim est, laudantium, corporis consectetur dolorem, molestiae ducimus ad iure repellat nostrum fugit laborum!
+        Excepturi assumenda accusantium cum placeat reprehenderit, iure consectetur recusandae deserunt maxime fugiat id tenetur nihil blanditiis ipsam voluptate nobis minus! Eveniet architecto, ratione error commodi pariatur assumenda perspiciatis consectetur perferendis!
+        Culpa ullam hic impedit saepe, molestiae nihil! Consequuntur, molestiae, tenetur ex veniam provident adipisci assumenda hic minima eos asperiores distinctio porro quidem magni, vero iste? Quasi modi vero laboriosam porro!
+    </article>
+<hr>
+
+    <h1>Z-INDEX</h1>
+    <h2>
+        z-index is a css property which is used to arrange the elements  n stack order 
+        which element has higher z index value will appear first compare to the element which has less z index value
+        z-index works with only positions
+    </h2>
+    <section>
+        <div></div>
+        <div></div>
+    </section>
+    <hr>
+
+    <h1>colors</h1>
+    <h5>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptates est molestias harum perferendis qui doloribus magni repellendus. Suscipit nobis tenetur fuga quisquam cum aliquid atque vel natus, consequatur cupiditate.
+        Magnam beatae earum mollitia ducimus, molestiae modi neque labore. Odio incidunt suscipit cupiditate, velit quaerat ullam sapiente quis voluptate explicabo? Doloribus maxime illum odio iure est debitis. Ea, veritatis ullam?
+        Quidem ex inventore dolores nisi aut ad iste pariatur tenetur et molestiae, quae dolorem harum, vel praesentium totam! Omnis et cum nisi, accusamus dicta quae veniam ad quasi autem eveniet?
+    </h5>
+
+    <h1>Display properties</h1>
+    <h4>
+        Lorem ipsum dolor sit.
+    </h4>
+    <hr>
+    <span>
+        Lorem ipsum dolor sit.
+    </span>
+
+    <h3>Lorem ipsum dolor sit amet consectetur <span>adipisicing elit</span>. Odit ullam, vero, nisi amet suscipit enim quisquam porro labore excepturi quo accusamus tempora laboriosam. Officia, itaque! Deserunt sint dignissimos esse culpa?</h3>
+</body>
+</html>

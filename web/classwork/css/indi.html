@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flying Indian Flag</title>
+<style>
+    body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#87ceeb;
+}
+
+.flag{
+    width:300px;
+    height:180px;
+    animation:wave 2s infinite ease-in-out;
+}
+
+.saffron{
+    background:#FF9933;
+    height:60px;
+}
+
+.white{
+    background:white;
+    height:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.green{
+    background:#138808;
+    height:60px;
+}
+
+.chakra{
+    width:40px;
+    height:40px;
+    border:3px solid navy;
+    border-radius:50%;
+}
+
+/* Flying animation */
+
+@keyframes wave{
+    0%{
+        transform:skewY(0deg);
+    }
+    25%{
+        transform:skewY(3deg);
+    }
+    50%{
+        transform:skewY(0deg);
+    }
+    75%{
+        transform:skewY(-3deg);
+    }
+    100%{
+        transform:skewY(0deg);
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="flag-container">
+
+    <div class="flag">
+        <div class="saffron"></div>
+        <div class="white">
+            <div class="chakra"></div>
+        </div>
+        <div class="green"></div>
+    </div>
+
+</div>
+
+</body>
+</html>

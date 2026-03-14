@@ -1,0 +1,44 @@
+import java.util.Arrays;
+class Anagram 
+{
+	
+	public static void main(String[] args) 
+	{
+		/*String str1="cattt";
+		String str2="tac";
+		if(str1.length()==str2.length()){
+			char[] c1=str1.toCharArray();
+			char[] c2=str2.toCharArray();
+			Arrays.sort(c1);
+			Arrays.sort(c2);
+			if(Arrays.equals(c1,c2)){
+				System.out.println("the stirng is angram");
+			}
+			else{
+				System.out.println("the string is not an anagram");
+			}
+		}
+		else{
+			System.out.println("The string is not anagram");
+		}*/
+		
+		String str1="cat";
+		String str2="tac";
+		if(str1.length()==str2.length()){
+			char[] c1=str1.toCharArray();
+			char[] c2=str2.toCharArray();
+			Arrays.sort(c1);
+			Arrays.sort(c2);
+			for(int i=0;i<c1.length;i++){
+				if(c1[i]!=c2[i]){
+					System.out.println("the string is not panagram");
+					return ;
+				}
+			}
+			System.out.println("the string is pangram");
+		}
+		else{
+			System.out.println("The string is not anagram");
+		}
+	}
+}
