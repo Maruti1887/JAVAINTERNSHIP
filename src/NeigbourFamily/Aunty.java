@@ -2,8 +2,9 @@ package NeigbourFamily;
 import Myfamily.Father;
 
 public class Aunty extends Father {
-	public void Uncle{
-		System.out.println("hello");
+	public static void main(String [] args){
+		Aunty a1 =new Aunty();
+		System.out.println("hi");
+		a1.bike();
 	}
-
 }
