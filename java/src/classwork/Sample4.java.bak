@@ -1,0 +1,13 @@
+class Sample4{
+	public static void main(String [] args){
+		int a; // var declaration
+		a=10; // var initilization
+		System.out.println(" the value is "+a); // var utilization
+		
+		
+		int x=20;
+		int y=30;
+		
+		System.out.println(" the value is "x+y);
+		}
+}

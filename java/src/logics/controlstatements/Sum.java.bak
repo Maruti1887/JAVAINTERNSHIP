@@ -1,0 +1,45 @@
+class Sum 
+{
+	static int i;
+	static int sum=0;
+	public static void main(String[] args) 
+	{
+		System.out.println("First type ");
+		System.out.println("The Sum is ");
+		area1(1,6);
+		System.out.println("The Sum is ");
+		area2(1,6);
+		area3(1,6);
+		area4(1,6);
+	}
+	public static void area1(int start,int end){
+		sum=0;
+		for(i=start;i<=end;i++){
+			sum=sum+i;
+		}
+		System.out.println(sum);
+	}
+	public static void area2(int start,int end){
+		sum=0;
+		for(i=start;i<=end-3;i++){
+			sum=sum+i;
+		}
+		System.out.println(sum);
+	}
+	public static void area3(int start,int end){
+		sum=0; 
+		for(i=start+3;i<=end;i++){
+			sum=sum+i;
+		}
+		System.out.println(sum);
+	}
+	public static void area4(int start,int end){
+		sum=0; 
+		for(i=start;i<=end;i++){
+			if(i%2==0)
+				sum=sum+i;
+		}
+		System.out.println(sum);
+	}
+			
+}

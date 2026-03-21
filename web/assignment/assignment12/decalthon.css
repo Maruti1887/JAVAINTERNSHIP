@@ -6,7 +6,7 @@
 nav:nth-child(1){
     display: flex;
     height: 80px;
-    background-color: chartreuse;
+    background-color: rgb(255, 255, 255);
     justify-content: space-evenly;
     align-items: center;
     position: relative;
@@ -134,10 +134,175 @@ aside>div:nth-child(2){
     border: 2px soild black;
     position: fixed;
 } */
+
+
 body>div:nth-child(4){
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 150px;
     width: 100%;
+}
+body>div:nth-child(5){
+    height: 400px;
+    width: 100vw;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body>div:nth-child(5)>div:nth-child(1){
+    height: 100%;
+    width: 17%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+body>div:nth-child(5)>div:nth-child(2){
+    height: 100%;
+    width: 17%;
+   
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+body>div:nth-child(5)>div:nth-child(2)>div:nth-child(1){
+    height: 50%;
+    width: 100%;
+   
+    background-image: url("https://contents.mediadecathlon.com/p2273704/45979084bc75f77fb9b7c3a4efc12751/p2273704.jpg?format=auto&quality=40&f=1680x0");
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2){
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+body>div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>button{
+    height: 30px;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+body>div:nth-child(5)>div:nth-child(3){
+    height: 100%;
+    width: 17%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+body>div:nth-child(5)>div:nth-child(3)>div:nth-child(1){
+    height: 50%;
+    width: 100%;
+    background-image: url("https://contents.mediadecathlon.com/p2596951/38f3f538c673c9727862974a8c540f74/p2596951.jpg?format=auto&quality=40&f=2520x0");
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+body>div:nth-child(5)>div:nth-child(3)>div:nth-child(2){
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+body>div:nth-child(5)>div:nth-child(3)>div:nth-child(2)>button{
+    height: 30px;
+    border-radius: 10px;    
+}
+
+
+body>div:nth-child(5)>div:nth-child(4){
+    height: 100%;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+body>div:nth-child(5)>div:nth-child(4)>div:nth-child(1){
+    height: 50%;
+    width: 100%;
+    background-image: url("https://contents.mediadecathlon.com/p2710115/0275e7f9988aa4a28369d73fde1c6567/p2710115.jpg?format=auto&quality=40&f=2520x0");
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+body>div:nth-child(5)>div:nth-child(4)>div:nth-child(2){
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+body>div:nth-child(5)>div:nth-child(4)>div:nth-child(2)>button{
+    height: 30px;
+    border-radius: 10px;    
+}
+
+
+
+
+body>div:nth-child(5)>div:nth-child(5){
+    height: 100%;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+body>div:nth-child(5)>div:nth-child(5)>div:nth-child(1){
+    height: 50%;
+    width: 100%;
+    background-image: url("https://contents.mediadecathlon.com/p2732081/f1d8dd512a251d6311ffbc4828150868/p2732081.jpg?format=auto&quality=40&f=2520x0");
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+body>div:nth-child(5)>div:nth-child(5)>div:nth-child(2){
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+body>div:nth-child(5)>div:nth-child(5)>div:nth-child(2)>button{
+    height: 30px;
+    border-radius: 10px;    
 }

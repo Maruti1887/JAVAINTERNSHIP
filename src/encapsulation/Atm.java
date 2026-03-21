@@ -1,13 +1,14 @@
 package encapsulation;
 class Main3{
-	private int pwd=26483836;
+	private int pwd=2;
 
 	public int getPwd() {
 		return pwd;
 	}
 
 	public void setPwd(int pwd) {
-		this.pwd = pwd;
+		this.pwd += pwd;
+		
 	}
 
 	
@@ -18,7 +19,7 @@ public class Atm {
 		// TODO Auto-generated method stub
 		Main3 m1=new Main3();
 		System.out.println(m1.getPwd());
-		m1.setPwd(27454566);
+		m1.setPwd(80);
 		System.out.println(m1.getPwd());
 
 	}
