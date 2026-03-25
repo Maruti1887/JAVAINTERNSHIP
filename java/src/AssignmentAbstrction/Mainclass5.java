@@ -31,7 +31,7 @@ public class Mainclass5 {
 		Comedy t=new Comedy();
 		Romantic m=new Romantic();
 		Action r=new Action();
-		
+		 
 		Stimulator4.ansi(t);
 		Stimulator4.ansi(m);
 		Stimulator4.ansi(r);
