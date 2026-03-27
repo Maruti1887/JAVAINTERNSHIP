@@ -1,3 +1,4 @@
+package assignment.assignment14;
 class Palindrome1
 {
 	public static void main(String[] args) 
@@ -6,7 +7,7 @@ class Palindrome1
 		String rev="";
 		for (int i=str.length()-1;i>=0 ;i++ )
 		{
-			rev=rev+str.charAt[i];
+			rev=rev+str.charAt(i);
 			
 		}
 		if(str.equals(rev)){
@@ -14,7 +15,7 @@ class Palindrome1
 			
 		}
 		else{
-			System.out.println(" the give n string is not a palindrome");
+			System.out.println("the given string is not a palindrome");
 			
 		}
 	}
