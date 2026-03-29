@@ -1,4 +1,4 @@
-package Strings;
+package eclipse.src.Strings;
 
 public class Reverse1 {
 	public static void main(String [] args) {

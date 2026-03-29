@@ -1,3 +1,4 @@
+package assignment.assignment1;
 class Carg
 {
 	static double cost=400000;

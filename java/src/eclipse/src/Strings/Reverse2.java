@@ -1,5 +1,5 @@
 
-package Strings;
+package eclipse.src.Strings;
 
 public class Reverse2 {
 	
