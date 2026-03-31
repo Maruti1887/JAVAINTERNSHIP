@@ -1,3 +1,6 @@
+
+package assignment.assignment1;
+
 class  Clothg
 {
 	

@@ -1,3 +1,5 @@
+
+package assignment.assignment1;
 class  Courseg	
 {
 	static String name="cs";

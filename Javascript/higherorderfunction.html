@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function operation(a,b,c){
+            return c(a,b);
+        }
+        console.log(operation(1,2,add));
+        console.log(operation(1,3,mul));
+        
+        
+        function add(a,b){
+            return a+b
+        }
+        function mul(a,b){
+            return a*b   
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,3 +1,5 @@
+
+package assignment.assignment1;
 class  Cloth
 {
 	public static void main(String[] args) 

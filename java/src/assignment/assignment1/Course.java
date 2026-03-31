@@ -1,3 +1,7 @@
+
+package assignment.assignment1;
+
+
 class  Course
 {
 	public static void main(String[] args) 
