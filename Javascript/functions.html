@@ -9,54 +9,67 @@
     <script>
 
 
-        //IMMEDIATE INVOKING FUNCTION EXPRESSION
-        (function(a,b){
-            console.log(a+b)
-            console.log("hello");
+        // //IMMEDIATE INVOKING FUNCTION EXPRESSION
+        // (function(a,b){
+        //     console.log(a+b)
+        //     console.log("hello");
             
-        })(10,20),(40,20);
-        (function(){
-            console.log("welcome to function");
-        })()
+        // })(10,20),(40,20);
+        // (function(){
+        //     console.log("welcome to function");
+        // })()
 
-        // //FUNCTION WITH EXPRESSION
-        // let d=input("enter the numbrer");
-        let a=function(a,b){
+        // // //FUNCTION WITH EXPRESSION
+        // // let d=input("enter the numbrer");
+        // let a=function(a,b){
 
-            console.log(a+b);
+        //     console.log(a+b);
             
-            console.log("hello");
-        }
-        a(100,200);
+        //     console.log("hello");
+        // }
+        // a(100,200);
 
-        //callback fuction
-        function add(mul,sub){
-            mul(10);
-            sub(20);
-        }
-        function new1(d){
-            return d*d;
-        }
-        function new2(f){
-            return f*f;
-        }
-        add(new1,new2);
+        // //callback fuction
+        // function add(mul,sub){
+        //     mul(10);
+        //     sub(20);
+        // }
+        // function new1(d){
+        //     return d*d;
+        // }
+        // function new2(f){
+        //     return f*f;
+        // }
+        // add(new1,new2);
 
-        //named function
-        function add1(a,b){
-            console.log(a+b);
+        // //named function
+        // function add1(a,b){
+        //     console.log(a+b);
             
-        }
-        add1(100,200);
+        // }
+        // add1(100,200);
 
-        //arrow function
-        let add2=(a,b)=>{
-            console.log(a+b);
-        }
-        add2(30,40)
+        // //arrow function
+        // let add2=(a,b)=>{
+        //     console.log(a+b);
+        // }
+        // add2(30,40)
 
-        let add5=a=> console.log(a);
-        add5(10)
+        // let add5=a=> console.log(a);
+        // add5(10)
+
+        //nested function
+        let val=10000;
+        function newone(){
+            let name="Maruti";
+            function newone2(){
+                console.log(name);
+                console.log(val);
+                
+            }
+            newone2();
+        }
+        newone();
         
 
 

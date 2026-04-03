@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function Delulu(describe){
+            console.log("my girl is beautiful");
+            
+        }
+        let M=10;
+        Delulu(M);
+
+        result(10,20)
+        function result(a,b=4){
+            console.log(a+b);
+            
+        }
+        result(10,20);
+
+        //myname
+        let mynaame=function (job){
+            console.log(`hero is ${job}`);
+            
+        }
+        mynaame("selected")
+        mynaame("rejected")
+
+
+        let test=(name)=>{
+            console.log("hi"+name);
+        }
+
+        test("Kiran")
+
+        //reules of arrow function
+
+        let rule1=()=>console.log("arrow function rule one"); rule1()
+
+        let rule2=()=>{console.log("hi"); console.log("bye");console.log("how are you");
+        rule2()
+        }
+        
+        let rule3=()=>{return "hello";}
+        rule3();
+
+
+        let rule4=()=>{
+            return "hello";
+        }
+        console.log(rule4());
+        
+        let rule5=()=>{
+            console.log("hello");
+            
+        }
+        
+        rule5();
+
+        //iife
+        (function (){
+            console.log("accept the cookie");
+            
+        })
+        ();
+
+
+        (function (thing){
+            console.log("keep the charge"+thing);
+            
+        })("mobile")
+
+
+        function demo1(callback1,callback2){
+            callback2(10,40);
+            callback1(10,20)
+        }
+        function add(x,y){
+            console.log(x+y);
+            
+        }
+        function sub(p,q){
+            console.log(p-q);
+            
+        }
+
+        let age=23;
+        function parent(){
+            let name='abc'
+            console.log(name);
+
+            function child(){
+                console.log(name);
+                console.log(age);
+                
+            }
+            child()
+        }
+        parent()
+
+
+
+        function counter(){
+            let count=0;
+            function count1(){
+                count++;
+                console.log(count);
+                
+            }
+            return count1;
+        }
+        let result4=counter()
+        result4()
+        result4()
+
+    </script>
+</body>
+</html>
