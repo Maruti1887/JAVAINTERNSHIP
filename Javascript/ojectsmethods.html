@@ -9,15 +9,87 @@
 
 
     <script>
-        //1.Frezze Method this method cannot make the properties to add delte 
+        //1.Frezze Method 
+        //this method cannot make the properties to add delte update but properties can fetch 
         let a={
             orderid:1,
-            name:shoes,
+            name:"shoes"
         }
-        object.freeze(a);
+        console.log(a.orderid)
+        Object.freeze(a);
         console.log(a.orderid);
         console.log(a.name);
 
+        
+        //2.IsFroze
+        // It will return boolean values it is true when the object is freeze it is false when the object is not freeze
+        let b={
+            orderid:1,
+            name:"shoes"
+        }
+        console.log(Object.isFrozen(b))
+        Object.freeze(b)
+        console.log(Object.isFrozen(b))
+        
+
+        //3.seal
+        //The seal object allows the properties to update and fetch but we cannot add and delete the properties 
+        let account={
+            name:"zoya",
+            status:"pending"
+        }
+        console.log(Object.seal(account));
+        console.log(account.status="success");
+        
+        //4.Issealed
+        //It will return boolean values it is true when the object is sealed it is false when the object is not sealed.
+
+        console.log(Object.isSealed(account));
+        
+        //5.keys
+        //Key object fetches only the key of the object is not sealed it is false when the object is not sealed
+        console.log(Object.keys(account));
+
+        //6.values
+        //value method fetches only the values of the object
+        console.log(Object.values(account));
+        
+        //7.convert object into array
+        let acconut2={
+            name1:"zoya",
+            status:"Pending"
+        }
+        Object.entries(acconut2);
+        console.log(acconut2);
+
+        //8.OBJECT DESTRUCTURING
+        let a2={
+            name:"Maruti",
+            rollno:28,
+            class1:"1st" 
+        }
+        let{name,rollno,class1}=a2;
+        console.log(name);
+        
+        let a3={
+            name1:"Maruti",
+            rollno1:28,
+            class12:{
+                sub1:20,
+                sub2:30,
+                sub3:40
+            } 
+        }
+        let{name1,rollno1,class12:{sub1,sun2,sub3}}=a3;
+        console.log(sub1);
+        
+
+        
+        
+        
+        
+       
+        
 
         
         
