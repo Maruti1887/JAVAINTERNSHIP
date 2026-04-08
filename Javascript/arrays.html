@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        //How to create an array 
+        let b=[10,20,30];
+        console.log(b[0]);
+        console.log(b[1]);
+        console.log(b[2]);
+
+        //Crud in array
+        let product =['shirt','pant','watch'];
+        console.log(product[2]);
+        console.log(product[3]='shoes');
+        console.log(product[2]='bond');
+        console.log(delete product[2]);
+
+        //Array methods 
+
+        //1.PUSH()
+        //Adding an elmeents of an array
+        let fruits=['apple','orange','banana'];
+        console.log(fruits);
+        console.log(fruits.push('mango','grapes'));
+        console.log(fruits);
+        
+
+        //2.UNSHIFT()
+        console.log(fruits.unshift('bufferfruit','chikku'));
+        console.log(fruits);
+        
+        //3.Pop()
+        //deleting an elements of an array
+        console.log(fruits.pop());
+        console.log(fruits);
+        
+        //4.shift()
+        console.log(fruits.shift());
+        console.log(fruits);
+
+        //5.Splice
+        let arr=[1,2,3,4,5,6,7,8,9]
+        console.log(arr);  
+        console.log(arr.splice(1,2))
+        console.log(arr);
+
+        console.log(arr.splice(1,4,10,20));
+        console.log(arr);
+
+        //6.Slice
+        console.log(arr.slice(1));
+        console.log(arr);
+        console.log(arr.slice(2,3));
+        console.log(arr);
+        
+        
+        //7.Includes
+        console.log(arr.includes(10));
+        console.log(arr.includes(100));
+        
+
+        //8.Map()
+        let shop=[1000,2000,3000]
+        let a=shop.map((x)=>{
+            return(x*0.18+x);
+        })
+        console.log(a);
+
+        let shop4=[1000,2000,3000]
+        let a1=shop4.map((y)=>{
+            console.log(y*0.18+y);
+        })
+        console.log(shop4);
+
+
+
+        //9.Filter()
+        let shop1=[1000,2000,3000]
+        let d=shop1.filter((item)=>{
+            
+            return(item>2000)
+        })
+        console.log(d);
+
+        let shop7=[1000,2000,3000]
+        let d1=shop1.filter((z)=>{
+            
+            console.log(z>200)
+        })
+        console.log(shop7);
+        
+        
+        //10.Reduce()
+        let shop2=[1000,2000,3000]
+        let e=shop2.reduce((a,b)=>{
+            return a+b
+        })
+        console.log(e);
+
+        // let shop9=[10,20,30]
+        // let m=shop9.reduce((w,r)=>{
+        //     return(w*r);
+            
+        // },1)
+        // console.log(m);
+
+
+
+
+
+
+        let a3=[1,2,3,4];
+        console.log(a3)
+        console.log(a3.splice(0,2,5,6));
+        console.log(a3);
+
+        console.log(a3.slice(2));
+        console.log(a3);
+        console.log(a3.slice(0,2));
+        
+        
+        
+        
+        
+    </script>
+</body>
+</html>

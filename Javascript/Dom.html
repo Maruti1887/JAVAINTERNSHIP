@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- id -->
+
+ <button id="btn">login</button>
+ <button id="btn">signup</button>
+<!-- 
+ cls -->
+ <article class="test">Lorem ipsum dolor sit amet.</article>
+ <article class="test">Lorem ipsum dolor sit amet consectetur.</article>
+
+
+ <!-- tagname -->
+  <aside>Lorem ipsum, dolor sit amet consectetur adipisicing.</aside>
+  <aside>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</aside>
+
+  <script>
+
+    let dom=document;
+    console.log(dom);
+    console.log(dom.head);
+    console.log(dom.body);
+    console.log(dom.url);
+    console.log(dom.title="facebook");
+
+
+    //getelementbyid
+    let id=document.getElementById('btn')
+    console.log(id);
+    id.style.backgroundColor="blue"
+
+    //geteelementbyclassnmae
+
+    let cls=document.getElementsByClassName('test')
+    console.log(cls);
+    console.log(Array.isArray(cls));
+
+
+    let a=(Array.from(cls));
+    console.log(Array.isArray(a));
+
+    cls[0].style.backgroundColor="yellow"
+
+    //getelementbyTagname
+    let tagname=document.getElementsByTagName('aside')
+    console.log(tagname);
+
+    console.log(Array.isArray(tagname))
+    let m=(Array.from(tagname))
+    console.log(m);
+    console.log(Array.isArray(m));
+    m[0].style.fontStyle="italic"
+    m[1].style.fontFamily="arial"
+    
+
+    
+
+    
+
+
+    
+    
+    
+
+
+
+
+    
+  </script>
+
+</body>
+</html>
