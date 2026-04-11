@@ -21,6 +21,25 @@
   <aside>Lorem ipsum, dolor sit amet consectetur adipisicing.</aside>
   <aside>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</aside>
 
+
+  <!-- query selector -->
+  <!-- <section id="q1">hello</section>
+  <button>hdh</button>
+  <section id="q1">hello</section>
+  <header class="q2">dfdjfd</header> -->
+
+  <section id="q1">hello</section>
+  <button>hdh</button>
+  <section id="q1">hello</section>
+  <header class="q2">dfdjfd</header>
+
+
+  <h1 id="i1">Hello</h1>
+  <h1 id="i1">i am looser in everything</h1>
+  <h1 id="i1">but i know i am unlucky</h1>
+
+  
+
   <script>
 
     let dom=document;
@@ -58,7 +77,41 @@
     console.log(Array.isArray(m));
     m[0].style.fontStyle="italic"
     m[1].style.fontFamily="arial"
+
+    //query selector
+
+    let query1=document.querySelector('section')
+    query1.style.backgroundColor="red";
+
+    let query2=document.querySelector('#q1')
+    query2.style.backgroundColor="blue"
+    console.log(query2);
     
+
+    let query3=document.querySelector('.q2')
+    query3.style.backgroundColor="pink"
+
+    //query selctor all
+    let qall1=document.querySelectorAll('.q2')
+    //qall1[0].style.backgroundColor="red";
+    console.log(qall1);
+    
+
+    let qall2=document.querySelectorAll('button')
+   // qall2[0].qall2[1].qall2[3].style.backgroundColor="pink"
+
+
+   //HOW TO CHNAGE THE CONTENT OF HTML ELEMENTS
+    let m1=document.querySelectorAll("#i1")
+    console.log(m1)
+    m1[0].style.backgroundColor='blue'
+    m1[1].style.backgroundColor='pink'
+    m1[2].style.backgroundColor='orange'
+
+
+    m1[0].innerHTML="<h1>But god will decide my faith</h1>"
+    m1[1].innerText="<h1>But some time</h1> "
+    m1[2].textContent="<h1>but some time there is an need </h1"
 
     
 
