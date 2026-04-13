@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+     
+    <div>instagram post </div>
+          <button id="btn1" onclick=like()>like</button>
+          <button id="btn2">comment</button>
+          <button id="btn3">share</button>
+   
+    <script>
+        //DOM EVENTS
+    //ONLICK
+
+
+
+        function like(){
+            alert("you liked the post")
+        }
+
+
+
+
+        let id1=document.getElementById('btn2')
+        id1.onclick=()=>{
+            alert("commmented successfully")
+        }
+
+
+        let bt=document.querySelector('#btn3')
+        bt.addEventListener('click',function(){
+            alert("the button sahred");
+            
+        })
+
+    </script>
+</body>
+</html>

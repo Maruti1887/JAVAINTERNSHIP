@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Life is not easy for everyone to understand</h1>
+    <button id="newon">heloooo</button>
+
+
+    <h2>you should be safe everytime</h2>
+    <h3>how</h3>
+    <h4>are you</h4>
+
+    <div id="div1">
+        you have forgotten me 
+    </div>
+    
+    <script>
+    //APPEND CHILD
+    //IT WILL NOT COPY IT WILL MOVE FORM ITS ORIGINAL PLACE
+    let id1=document.querySelector('h1')
+    let id2=document.querySelector('button')
+    console.log(id1.appendChild(id2));//WE ARE PASSING THE H1 INSIDE THE BUTTON  
+
+
+
+    //APPEND
+    let id3=document.querySelector('h3')
+    let id4=document.querySelector('h4')
+    let id5=document.querySelector('h2')
+    let div1=document.querySelector('#div1')
+    div1.style.backgroundColor='red';
+    div1.append(id3,id4,id5)
+
+
+    //HOW TO CREATE TEH ELEMENT WITHOUT HTML
+    let btn=document.createElement('button')
+    let test1=document.createElement('h1')
+    btn.innerHTML='click'
+    test1.innerHTML="heading"
+    console.log(document.body.append(btn,test1))
+
+    //SETTING THE ATTRIBUTES
+    let sm1=document.createElement('button')
+    let sm2=document.createElement('h1')
+    let sm3=document.createElement('img')
+    sm1.id='id11'
+    sm2.id='id12'
+    sm3.id='id13'
+    sm1.innerHTML='hell'
+    sm2.innerHTML='how are you'
+    sm3.src='https://wallpapercave.com/wp/zeqvAWp.jpg'
+    document.body.append(sm1,sm2,sm3)
+
+    </script>
+
+</body>
+</html>

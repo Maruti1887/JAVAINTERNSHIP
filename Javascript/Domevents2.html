@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="id1">USERNAME</label>
+    <input type="text" id="id1">
+    <br>
+    <label for="id2">PASSWORD</label>
+    <input type="password" id="id2">
+    <br>
+    <button>submit</button>
+    <div>
+
+ <h1>hello</h1>
+    </div>
+    <script>
+        let q1=document.querySelector('button')
+        q1.addEventListener("click",()=>{
+            let id3=document.getElementById('id1').value
+            let id4=document.getElementById('id2').value
+            let div=document.querySelector('div')
+            div.innerHTML=`username is ${id3} and password is${id4}`
+            alert("the name is"+id3)
+        })
+    </script>
+</body>
+</html>
