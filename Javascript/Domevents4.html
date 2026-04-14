@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section>
+        <h1>ONE</h1>
+        <div id="demo">Two</div>
+        <h3>Three</h3>
+    </section>
+
+
+    <script>
+        //HOW TO FIND THE CHILDREN OF THE PARENT
+        let a=document.querySelector('section')
+        console.log(a.childNodes);
+        console.log(a.children);
+        console.log(a.children[0]);
+         console.log(a.children[1]);
+          console.log(a.children[2]);
+        
+
+
+        //HOW TO FIND THE PRODUCT OF THE CHILDREN
+        let b=document.getElementById('demo')
+        console.log(b.parentElement);
+        console.log(b.parentNode);
+        let c=b.nextElementSibling;
+        console.log(c.previousElementSibling);
+
+        
+
+        
+
+    </script>
+</body>
+</html>

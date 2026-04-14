@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: bisque;
+        }
+        #gp{
+            height: 500px;
+            width: 500px;
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #gp>div{
+            height: 250px;
+            width:250px;
+            }
+
+    </style>
+</head>
+<body>
+    <div id="gp">
+        GRANDPARENT
+        <div id="p">
+            PARENT
+        </div>
+    </div>
+
+    <script>
+        let gp=document.querySelector('#gp');
+        let p=document.querySelector('#p')
+        
+
+
+
+         p.addEventListener('click',()=>{
+            console.log('parent Captured');
+            
+        },true)
+
+        gp.addEventListener('click',()=>{
+            console.log('grandparent Capturd');
+            
+        },true)
+
+    
+        document.addEventListener('click',()=>{
+            console.log("documemt captued");
+            
+        },true)
+
+        document.addEventListener('click',()=>{
+            console.log("Document bubbled");  
+        })
+       
+        gp.addEventListener('click',()=>{
+            console.log("grandparent bubbled");  
+        })
+         p.addEventListener('click',()=>{
+            console.log("parent bubbled");  
+        })
+
+
+    </script>
+</body>
+</html>

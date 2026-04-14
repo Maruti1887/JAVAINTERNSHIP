@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Soulnaik</title>
+    <style>
+        .dark{
+            background-color: blueviolet;
+            background-image: url("https://assets.khelnow.com/news/uploads/2025/06/RCB-Royal-Challengers-Bengaluru-IPL-2025-win.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        h1{
+            color: yellow;
+        }
+        h2{
+            color: rgb(0, 255, 55);
+        }
+        ul{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+   
+
+     <!-- //To change the color of the back ground using js toggle -->
+    <h1>Click here to see the magic</p></h1>
+    <button id="dark">Click</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+<br>
+<br><br><br><br><br><br><br><br>
+    <!-- //how to add the items in list -->
+     <h2>Adding the item</h2>
+    <input type="text" id="input" placeholder="Enter the items">
+    <button>add</button>
+    <div>
+
+    <ul>
+
+    </ul>
+    </div>
+
+    <script>
+        let btn=document.querySelector('button')
+        btn.addEventListener('click',()=>{
+            document.body.classList.toggle('dark')
+        })
+
+        let input=document.querySelector('input')
+        let btn1=document.querySelectorAll('button')
+        let list=document.querySelector('ul')
+
+        btn1[1].addEventListener('click',()=>{
+            let li=document.createElement('li');
+            li.innerHTML=input.value;
+            list.append(li);
+        })
+
+    </script>
+
+</body>
+</html>
