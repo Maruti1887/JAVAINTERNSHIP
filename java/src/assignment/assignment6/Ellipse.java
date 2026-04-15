@@ -1,3 +1,4 @@
+package assignment.assignment6;
 class Ellipse
 {
 	public static void area(){
@@ -10,6 +11,6 @@ class Ellipse
 	}
 	public static void main(String[] args) 
 	{
-		new Ellipse().area();
+		area();
 	}
 }

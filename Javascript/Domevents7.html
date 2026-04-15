@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <label for="a">username</label>
+    <input type="text" id="a">
+
+    <br>
+    <label for="b">Password</label>
+    <input type="password" id="b">
+
+    <button type="submit">LOGIn</button>
+</form>
+
+<script>
+    // The Submit event using the form 
+    let form=document.querySelector('form')
+    form.addEventListener('submit',()=>{
+        let un=document.getElementById('a').value;
+        let pass=document.getElementById('b').value;
+        console.log(`the username is ${un} th pass is ${pass}` );
+    })
+</script>
+
+</body>
+</html>

@@ -1,3 +1,5 @@
+package
+ assignment.assignment2;	
 class Triangle{
 	public static void area(){
 		final double val=0.5;

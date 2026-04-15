@@ -1,3 +1,4 @@
+package assignment.assignment2;
 class  Ecllipse{
 	public static void area(){
 		final double val=0.5;

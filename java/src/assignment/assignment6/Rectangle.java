@@ -1,3 +1,4 @@
+package assignment.assignment6;
 class Rectangle
 {
 	public static void main(String[] args) 

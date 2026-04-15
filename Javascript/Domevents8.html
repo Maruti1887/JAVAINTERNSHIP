@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form action="">
+    <label for="a">username</label>
+    <input type="text" id="a">
+
+    <br>
+    <label for="b">Password</label>
+    <input type="password" id="b">
+
+    <button type="submit">LOGIn</button>
+</form>
+    <Script>
+        let store=localStorage.setItem('username','soul');
+        let storepass=localStorage.setItem('PAssword','chikkamaglur')
+        console.log(localStorage.getItem('username'));
+        //localStorage.removeItem('username')
+        //localStorage.clear();
+
+        sessionStorage.setItem('team','rcb')
+        console.log(sessionStorage.setItem('team'))
+        console.log(sessionStorage.removeItem('team'));
+        sessionStorage.clear();
+
+        
+        
+    </Script>
+</body>
+</html>

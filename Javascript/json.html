@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="user">username</label>
+        <input type="text" id="user">
+        <br>
+        <br>
+        <label for="pass">Password</label>
+        <input type="text" id="pass">
+        <br>
+        <br>
+        <button>LOGIN</button>
+    </form>
+    
+    
+
+<script>
+    let a={
+        id:1,
+        name:"Maruti"
+    }
+    let data=JSON.stringify(a)
+    console.log(data);
+    let y=JSON.parse(data)
+    console.log(y);
+
+    let formData=document.querySelector('form')
+    formData.addEventListener('submit',()=>{
+        let user=document.getElementById('user').value
+        let pass=document.getElementById('pass').value
+        let userdata={
+            username:user,password:pass
+        }
+        localStorage.setItem('loginData',JSON.stringify(userdata));
+    })
+
+    
+
+
+    
+</script>
+</body>
+</html>

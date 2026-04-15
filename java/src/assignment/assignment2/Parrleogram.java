@@ -1,3 +1,4 @@
+package assignment.assignment2;
 class Parrleogram
 {	
 	public static void area(){

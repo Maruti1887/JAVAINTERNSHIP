@@ -1,3 +1,4 @@
+package assignment.assignment6;
 class Square 
 {
 	void area(){

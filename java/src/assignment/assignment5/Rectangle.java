@@ -1,3 +1,4 @@
+package assignment.assignment5;
 class Shape{
 	public static void area(){
 	int b=7;

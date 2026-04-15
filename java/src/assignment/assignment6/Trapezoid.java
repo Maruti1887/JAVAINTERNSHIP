@@ -1,3 +1,4 @@
+package assignment.assignment6;
 class Trapezoid 
 {
 	void  area(){

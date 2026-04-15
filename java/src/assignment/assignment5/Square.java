@@ -1,3 +1,4 @@
+package assignment.assignment5;
 class Sqaure
 {
 	public static void main(String[] args) 

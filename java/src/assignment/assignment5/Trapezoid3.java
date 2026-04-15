@@ -1,3 +1,4 @@
+package assignment.assignment5;
 class Trapezoid3
 {
 	public static void main(String[] args) 

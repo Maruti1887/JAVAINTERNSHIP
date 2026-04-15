@@ -1,3 +1,4 @@
+package assignment.assignment4;
 class Assign
 {
 	public static void tri(double b, double h){

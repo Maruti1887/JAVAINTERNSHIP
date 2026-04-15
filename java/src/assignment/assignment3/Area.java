@@ -1,3 +1,4 @@
+package assignment.assignment3;
 class Area
 {
 	public static void tri(double b, double h){
