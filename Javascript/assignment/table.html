@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border: 2px,solid,black;
+           
+        }
+    </style>
+</head>
+<body>
+    <!-- <input type="text" placeholder="Enter the name" id="name1">
+    <input type="text" placeholder="Enter the age" id="age1">
+    <button id="btn1">click</button>
+
+    <table>
+        <tr id="tr1">
+            <td id="td1"></td>
+            <td id="td2"></td>
+        </tr>
+        <tr id="tr2">
+            <td id="td3"></td>
+            <td id="td4"></td>
+        </tr>
+    
+    </table> -->
+<input type="text" id="name" placeholder="Enter Name">
+<input type="number" id="age" placeholder="Enter Age">
+<button id="btn">Add</button>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody">
+    </tbody>
+</table>
+
+
+    <script>
+    //     for(let i=0;i<5;i++){
+    //     let btn=document.querySelector("#btn1");
+    //     btn.addEventListener('click',()=>{
+    //         let name1=document.querySelector('#name1').value;
+    //         let name2=document.querySelector('#age1').value;
+    //         let table1=document.querySelector('table')
+    //         let tr1=document.getElementById('tr1');
+    //         let tr2=document.getElementById('tr2');
+    //         let td1=document.getElementById('td1');
+    //         let td2=document.getElementById('td2');
+    //         let td3=document.getElementById('td3');
+    //         let td4=document.getElementById('td4');
+    //         td1.innerHTML=name1;
+    //         td2.innerHTML=name2;
+    //         td3.innerHTML=name1;
+    //         td4.innerHTML=name2;
+    //         table1.appendChild(tr1);
+    //         table1.appendChild(tr2);
+            
+
+
+
+    //     })
+    // }
+    let btn = document.querySelector('#btn')
+
+    btn.addEventListener("click", () => {
+    let name = document.querySelector('#name').value
+    let age = document.querySelector('#age').value
+
+    let tbody = document.querySelector('#tableBody')
+
+    // create row
+    let tr = document.createElement('tr')
+    // create cells
+    let td1 = document.createElement('td')
+    let td2 = document.createElement('td')
+
+    td1.textContent = name
+    td2.textContent = age
+
+    // append cells to row
+    tr.append(td1, td2)
+
+    // append row to table
+    tbody.append(tr)
+
+    // clear input
+    document.querySelector('#name').value = ""
+    document.querySelector('#age').value = ""
+})
+    </script>
+
+</body>
+</html>

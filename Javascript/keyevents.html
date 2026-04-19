@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #box{
+            height: 500px;
+            width: 500px;
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
     <input type="text" id="id1">
     <input type="text" id="id2">
+
+    <!-- task1 -->
+
+    <input type="text" id="enter1" placeholder="enter here.......">
+    <div id="output"></div>
+
+    <div id="msg"></div>
+
+    <input type="text" id="enter2" placeholder="enter here...">
+
+    <button id="double3">DB click</button>
+    <div id="box"></div>
+
     <script>
         //keyup 
         let a=document.querySelector('#id1')
@@ -21,6 +41,42 @@
             console.log("Keydown");
             
         })
+
+
+        let enterdata=document.getElementById("enter1");
+        let ouptut=document.getElementById("output")
+        enterdata.addEventListener('keyup',()=>{
+            ouptut.innerHTML=enterdata.value;
+        })
+
+        // let msgdata=document.getElementById('msg')
+        // document.addEventListener('keyup',(e)=>{
+        //     document.getElementById('msg').innerHTML=e.key;
+        // })
+
+
+        let enterdata1=document.getElementById('enter2');
+        enterdata1.addEventListener('keyup',(e)=>{
+            if(e.key== "Enter")
+        {
+            alert(`the enterd data is ${enterdata1.value}`);
+        }
+        })
+        
+        let dbclick1=document.getElementById('double3')
+        dbclick1.addEventListener('dblclick',()=>{
+            alert("the user clicked")
+        })
+
+        let box=document.getElementById('box')
+        box.addEventListener('mouseout',()=>{
+            box.style.background="green"
+        })
+        box.addEventListener('mouseover',()=>{
+            box.style.background="yellow"
+        })
+
     </script>
+
 </body>
 </html>
