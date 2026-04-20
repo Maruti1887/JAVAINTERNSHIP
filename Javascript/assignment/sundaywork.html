@@ -17,6 +17,8 @@
         console.log(b,typeof(b));
         console.log(c,typeof(c));
         //parseInt
+        console.log("parsefloat");
+        
         console.log(parseInt(200));
         console.log(parseInt("1000.1f2"));
         console.log(parseInt("123abc"));
@@ -29,7 +31,86 @@
         console.log(parseInt("0x10"));
 
         //parseFloat
+        console.log("parsefloat");
         console.log(parseFloat(100));
+        console.log(parseFloat("123.45"));
+        console.log(parseFloat("123.45abc"));
+        console.log(parseFloat("abc123.45"));
+        console.log(parseFloat("50"));
+        console.log(parseFloat("   78.9"));
+        console.log(parseFloat("") );
+        console.log(parseFloat("12.3.4"));
+        console.log(parseFloat("-45.67"));
+        console.log(parseFloat("hello"));
+        console.log(parseFloat("10e1"));
+
+        //toFixed
+        console.log("toFixed");
+        console.log((12.345).toFixed(2))   // "12.35"
+        console.log((12.9).toFixed(0))   // "13"
+        console.log((5).toFixed(2))   // "5.00"
+        console.log((3.1).toFixed(4))   // "3.1000"
+        //console.log("12.34".toFixed(2))   //ERROR
+        let x = (10.5).toFixed(1)
+        console.log(typeof x)   // "string"
+        console.log((10.5).toFixed(1) + 5)   // "10.55"
+        console.log((1.2).toFixed(20))
+
+        //IsNaN
+        console.log("isNaN");
+        console.log(isNaN(100))   // false
+        console.log(isNaN("100"))   // false
+        console.log(isNaN(""))   // false
+        console.log(isNaN("   "))   // false
+        console.log(isNaN(true))   // false
+        console.log(isNaN(false))  // false
+        console.log(isNaN(null))   // false
+        console.log(isNaN(undefined))   // true
+        console.log(isNaN("hello"))   // true
+        console.log(isNaN("123abc"))   // true
+        console.log(isNaN("12.5"))   // false
+        console.log(isNaN([10]))   // false
+        console.log(isNaN([1,2]))   // true
+        console.log(isNaN({}))   // true
+        console.log(NaN === NaN)   // false
+
+        //toprecision
+        console.log("toPrecision");
+        console.log((12.345).toPrecision(4))   // "12.35"
+        console.log((1234).toPrecision(2))   // "1.2e+3"
+        console.log((123).toPrecision(3))   // "123"
+        console.log((5).toPrecision(3))   // "5.00"
+        console.log((0.012345).toPrecision(2))   // "0.012"
+        //console.log("123.45".toPrecision(3))   // ❌ ERROR
+        console.log(Number("123.45").toPrecision(3))   // "123"
+        let y = (10.5).toPrecision(3)
+        console.log(typeof x)   // "string"
+        console.log((1.2).toPrecision(20))
+
+        //Isinteger
+        console.log(Number.isInteger(10))   // true
+        console.log(Number.isInteger(10.5))   // false
+        console.log(Number.isInteger("10"))   // false
+        console.log(Number.isInteger(""))   // false
+        console.log(Number.isInteger(true))   // false
+        console.log(Number.isInteger(null))   // false
+        console.log(Number.isInteger(undefined))   // false
+        console.log(Number.isInteger(NaN))   // false
+        console.log(Number.isInteger(Infinity))   // false
+        //console.log(typeof(Infinity));
+        console.log(Number.isInteger(-20))   // true
+        console.log(Number.isInteger(10.0))   // true
+        console.log(Number.isInteger(9999999999999999))   // true (but precision issue possible)
+
+        
+        
+
+        
+
+        
+        
+        
+        
         
         
         

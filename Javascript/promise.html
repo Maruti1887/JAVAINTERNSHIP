@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let pdata = new Promise((resolve,reject)=>{
+        //     resolve("it is resolved")
+        // })
+        // pdata.then((a)=>{
+        //     console.log(a);
+            
+        // })  
+        
+        // console.log("start");
+        // console.log("started");
+        // console.log("end");
+
+        // console.log("monday");
+        // setTimeout(()=>{
+        //     console.log("wednesday");
+            
+        // },5000);
+        // console.log("Sunday");
+        
+        setTimeout(()=>{
+            console.log("wednesday");
+            
+        },0);
+         let pdata1 = new Promise((resolve,reject)=>{
+            resolve("it is resolved")
+        })
+        pdata1.then((a)=>{
+            console.log(a);
+            
+        })
+
+        //new
+        let prodata=new Promise((resolve,reject)=>{
+            let num=4;
+            if(num>8){
+                resolve("yes")
+            }
+            else{
+                reject("Noooo")
+            }
+        })
+        console.log(prodata);
+
+        prodata.then((data)=>{
+            console.log(data);
+            
+        }).catch((err)=>{
+            console.log(`due to the network ${err}`);
+            
+        })
+
+        fetch('https://cataas.com/api/cats?tags=cute').then(res=>res.json()).then(data=>console.log(data)).catch(err=>console.log(err));
+
+        console.log("end");
+        
+        
+        
+
+
+        
+        
+        
+
+
+        
+        
+        
+        
+    </script>
+</body>
+</html>
