@@ -12,30 +12,44 @@
         // }
         // console.log(order());
         
-        function getorder(){
-            return new Promise((resolve, reject)=>{
-                setTimeout(()=>{
-                    resolve("order is ready")
-                },2000);
-            })
-        }
-        function getpayment(data){
-            return new Promise((resolve, reject)=>{
-                
-                    resolve("payment is done "+data);
-               
-            })
-        }
-        async function demo(){
-            const order= await getorder();
-            console.log(order);
-            const payment= await getpayment(order);
-            console.log(payment);
-        }
-        demo();
-        // async function demo(){
-        //     const a= 
+        // function getorder(){
+        //     return new Promise((resolve, reject)=>{
+        //         setTimeout(()=>{
+        //             resolve("order is ready")
+        //         },2000);
+        //     })
         // }
+        // function getpayment(data){
+        //     return new Promise((resolve, reject)=>{
+                
+        //             resolve("payment is done "+data);
+               
+        //     })
+        // }
+        // async function demo(){
+        //     const order= await getorder();
+        //     console.log(order);
+        //     const payment= await getpayment(order);
+        //     console.log(payment);
+        // }
+        // demo();
+        
+        async function datafetch(){
+            try{
+                let data=await fetch('https://cataas.com/api/cats?tags=cute');
+                let res=await data.json();
+                setTimeout(()=>{
+                console.log(res); 
+                },2000);
+                 
+            }
+            catch(err){
+                console.log('due to netwoek ${err}');
+            }
+        }
+        datafetch();
+        console.log("the system is correct");
+        
     </script>
 </body>
 </html>
