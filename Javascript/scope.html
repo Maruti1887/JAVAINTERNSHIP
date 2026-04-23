@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        //SCOPES
+        //1.GLOBAL SCOPE
+        let name1='Meghaana'
+        var name2='Ranjana'
+        const name3='Maruti'
+        function demo(){
+            const name4="soul"
+            let name5="naik"
+            var name6="nirmala"
+            //console.log();
+            
+        }
+        demo();
+        console.log(name1);
+        console.log(name2);
+        console.log(name3);
+        
+
+        //2.FUNCTION SCOPE
+        function demo(){
+            var a1=10;
+            let a2=30;
+            const a3=40;
+            console.log(a1);
+            console.log(a2);
+            console.log(a3);    
+        }
+        //console.log(a1);
+        //console.log(a2);
+        //console.log(a3);
+
+        //3.BLOCK SCOPE
+        {
+            let b1=10;
+            var b2=20;
+            const b3=40;
+            console.log(b1);
+            console.log(b2);
+            console.log(b3);
+        }
+        //console.log(b1);
+        console.log(b2);
+        //console.log(b3);
+        
+        
+        
+        
+        
+        
+
+
+    </script>
+</body>
+</html>
