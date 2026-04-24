@@ -10,23 +10,23 @@
         let c={
             place:"hello"
         }
-        console.log(c.place);
-
-
         let b={
             name:"abc"
         }
-        console.log(b.name);
         b.__proto__=c;
-
-
         let a={
             id:1,
             demo:function(){
                 console.log("hello");
             }
         }
-
+        a.__proto__=b;
+        console.log(c.place);
+        console.log(b.name);
+        console.log(b.place);
+        console.log(a.id);
+        console.log(a.name);
+        console.log(a.place);
         
         
     </script>
